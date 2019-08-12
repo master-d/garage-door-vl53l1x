@@ -1,0 +1,2299 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"129 vl53l1_ULD/core/VL53L1X_api.h
+[; ;vl53l1_ULD/core/VL53L1X_api.h: 129: typedef struct {
+[s S8 `uc 1 `uc 1 `uc 1 `ul 1 ]
+[n S8 . major minor build revision ]
+"41 vl53l1_ULD/platform/vl53l1_platform.h
+[; ;vl53l1_ULD/platform/vl53l1_platform.h: 41: int8_t VL53L1_WrByte(
+[v _VL53L1_WrByte `(c ~T0 @X0 0 ef3`ui`ui`uc ]
+"187 vl53l1_ULD/core/VL53L1X_api.h
+[; ;vl53l1_ULD/core/VL53L1X_api.h: 187: VL53L1X_ERROR VL53L1X_StartRanging(uint16_t dev);
+[v _VL53L1X_StartRanging `(c ~T0 @X0 0 ef1`ui ]
+"198
+[; ;vl53l1_ULD/core/VL53L1X_api.h: 198: VL53L1X_ERROR VL53L1X_CheckForDataReady(uint16_t dev, uint8_t *isDataReady);
+[v _VL53L1X_CheckForDataReady `(c ~T0 @X0 0 ef2`ui`*uc ]
+"168
+[; ;vl53l1_ULD/core/VL53L1X_api.h: 168: VL53L1X_ERROR VL53L1X_ClearInterrupt(uint16_t dev);
+[v _VL53L1X_ClearInterrupt `(c ~T0 @X0 0 ef1`ui ]
+"192
+[; ;vl53l1_ULD/core/VL53L1X_api.h: 192: VL53L1X_ERROR VL53L1X_StopRanging(uint16_t dev);
+[v _VL53L1X_StopRanging `(c ~T0 @X0 0 ef1`ui ]
+"62 vl53l1_ULD/platform/vl53l1_platform.h
+[; ;vl53l1_ULD/platform/vl53l1_platform.h: 62: int8_t VL53L1_RdByte(
+[v _VL53L1_RdByte `(c ~T0 @X0 0 ef3`ui`ui`*uc ]
+"221 vl53l1_ULD/core/VL53L1X_api.h
+[; ;vl53l1_ULD/core/VL53L1X_api.h: 221: VL53L1X_ERROR VL53L1X_GetDistanceMode(uint16_t dev, uint16_t *pDistanceMode);
+[v _VL53L1X_GetDistanceMode `(c ~T0 @X0 0 ef2`ui`*ui ]
+"48 vl53l1_ULD/platform/vl53l1_platform.h
+[; ;vl53l1_ULD/platform/vl53l1_platform.h: 48: int8_t VL53L1_WrWord(
+[v _VL53L1_WrWord `(c ~T0 @X0 0 ef3`ui`ui`ui ]
+"69
+[; ;vl53l1_ULD/platform/vl53l1_platform.h: 69: int8_t VL53L1_RdWord(
+[v _VL53L1_RdWord `(c ~T0 @X0 0 ef3`ui`ui`*ui ]
+"55
+[; ;vl53l1_ULD/platform/vl53l1_platform.h: 55: int8_t VL53L1_WrDWord(
+[v _VL53L1_WrDWord `(c ~T0 @X0 0 ef3`ui`ui`ul ]
+"76
+[; ;vl53l1_ULD/platform/vl53l1_platform.h: 76: int8_t VL53L1_RdDWord(
+[v _VL53L1_RdDWord `(c ~T0 @X0 0 ef3`ui`ui`*ul ]
+"139 vl53l1_ULD/core/VL53L1X_api.h
+[; ;vl53l1_ULD/core/VL53L1X_api.h: 139: typedef struct {
+[s S9 `uc 1 `ui 1 `ui 1 `ui 1 `ui 1 ]
+[n S9 . Status Distance Ambient SigPerSPAD NumSPADs ]
+"33 vl53l1_ULD/platform/vl53l1_platform.h
+[; ;vl53l1_ULD/platform/vl53l1_platform.h: 33: int8_t VL53L1_ReadMulti(
+[v _VL53L1_ReadMulti `(c ~T0 @X0 0 ef4`ui`ui`*uc`ul ]
+"106 vl53l1_ULD/core/VL53L1X_api.c
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 106: const uint8_t VL51L1X_DEFAULT_CONFIGURATION[] = {
+[v _VL51L1X_DEFAULT_CONFIGURATION `Cuc ~T0 @X0 -> 91 `i e ]
+[i _VL51L1X_DEFAULT_CONFIGURATION
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 16 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 32 `i `uc
+-> -> 11 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 10 `i `uc
+-> -> 33 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 200 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 56 `i `uc
+-> -> 255 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 204 `i `uc
+-> -> 15 `i `uc
+-> -> 1 `i `uc
+-> -> 241 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `uc
+-> -> 104 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 8 `i `uc
+-> -> 184 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 137 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 15 `i `uc
+-> -> 13 `i `uc
+-> -> 14 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 199 `i `uc
+-> -> 255 `i `uc
+-> -> 155 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+"200
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 200: static const uint8_t status_rtn[24] = { 255, 255, 255, 5, 2, 4, 1, 7, 3, 0,
+[v _status_rtn `Cuc ~T0 @X0 -> 24 `i s ]
+[i _status_rtn
+:U ..
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 5 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 10 `i `uc
+-> -> 6 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 11 `i `uc
+-> -> 12 `i `uc
+..
+]
+"205
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 205: VL53L1X_ERROR VL53L1X_GetSWVersion(VL53L1X_Version_t *pVersion)
+[v _VL53L1X_GetSWVersion `(c ~T0 @X0 1 ef1`*S8 ]
+"206
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 206: {
+{
+[e :U _VL53L1X_GetSWVersion ]
+"205
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 205: VL53L1X_ERROR VL53L1X_GetSWVersion(VL53L1X_Version_t *pVersion)
+[v _pVersion `*S8 ~T0 @X0 1 r1 ]
+"206
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 206: {
+[f ]
+"207
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 207:  VL53L1X_ERROR Status = 0;
+[v _Status `c ~T0 @X0 1 a ]
+[e = _Status -> -> 0 `i `c ]
+"209
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 209:  pVersion->major = 3;
+[e = . *U _pVersion 0 -> -> 3 `i `uc ]
+"210
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 210:  pVersion->minor = 3;
+[e = . *U _pVersion 1 -> -> 3 `i `uc ]
+"211
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 211:  pVersion->build = 0;
+[e = . *U _pVersion 2 -> -> 0 `i `uc ]
+"212
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 212:  pVersion->revision = 0000;
+[e = . *U _pVersion 3 -> -> -> 0 `i `l `ul ]
+"213
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 213:  return Status;
+[e ) _Status ]
+[e $UE 10  ]
+"214
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 214: }
+[e :UE 10 ]
+}
+"216
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 216: VL53L1X_ERROR VL53L1X_SetI2CAddress(uint16_t dev, uint8_t new_address)
+[v _VL53L1X_SetI2CAddress `(c ~T0 @X0 1 ef2`ui`uc ]
+"217
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 217: {
+{
+[e :U _VL53L1X_SetI2CAddress ]
+"216
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 216: VL53L1X_ERROR VL53L1X_SetI2CAddress(uint16_t dev, uint8_t new_address)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _new_address `uc ~T0 @X0 1 r2 ]
+"217
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 217: {
+[f ]
+"218
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 218:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"220
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 220:  status = VL53L1_WrByte(dev, 0x0029, new_address >> 1);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 41 `i `ui -> >> -> _new_address `i -> 1 `i `uc ]
+"221
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 221:  return status;
+[e ) _status ]
+[e $UE 11  ]
+"222
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 222: }
+[e :UE 11 ]
+}
+"224
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 224: VL53L1X_ERROR VL53L1X_SensorInit(uint16_t dev)
+[v _VL53L1X_SensorInit `(c ~T0 @X0 1 ef1`ui ]
+"225
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 225: {
+{
+[e :U _VL53L1X_SensorInit ]
+"224
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 224: VL53L1X_ERROR VL53L1X_SensorInit(uint16_t dev)
+[v _dev `ui ~T0 @X0 1 r1 ]
+"225
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 225: {
+[f ]
+"226
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 226:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"227
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 227:  uint8_t Addr = 0x00, tmp;
+[v _Addr `uc ~T0 @X0 1 a ]
+[e = _Addr -> -> 0 `i `uc ]
+[v _tmp `uc ~T0 @X0 1 a ]
+"229
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 229:  for (Addr = 0x2D; Addr <= 0x87; Addr++){
+{
+[e = _Addr -> -> 45 `i `uc ]
+[e $ <= -> _Addr `i -> 135 `i 13  ]
+[e $U 14  ]
+[e :U 13 ]
+{
+"230
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 230:   status = VL53L1_WrByte(dev, Addr, VL51L1X_DEFAULT_CONFIGURATION[Addr - 0x2D]);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> _Addr `ui *U + &U _VL51L1X_DEFAULT_CONFIGURATION * -> -> - -> _Addr `i -> 45 `i `ui `ux -> -> # *U &U _VL51L1X_DEFAULT_CONFIGURATION `ui `ux ]
+"231
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 231:  }
+}
+[e ++ _Addr -> -> 1 `i `uc ]
+[e $ <= -> _Addr `i -> 135 `i 13  ]
+[e :U 14 ]
+}
+"232
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 232:  status = VL53L1X_StartRanging(dev);
+[e = _status ( _VL53L1X_StartRanging (1 _dev ]
+"233
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 233:  tmp = 0;
+[e = _tmp -> -> 0 `i `uc ]
+"234
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 234:  while(tmp==0){
+[e $U 16  ]
+[e :U 17 ]
+{
+"235
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 235:    status = VL53L1X_CheckForDataReady(dev, &tmp);
+[e = _status ( _VL53L1X_CheckForDataReady (2 , _dev &U _tmp ]
+"236
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 236:  }
+}
+[e :U 16 ]
+"234
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 234:  while(tmp==0){
+[e $ == -> _tmp `i -> 0 `i 17  ]
+[e :U 18 ]
+"237
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 237:  status = VL53L1X_ClearInterrupt(dev);
+[e = _status ( _VL53L1X_ClearInterrupt (1 _dev ]
+"238
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 238:  status = VL53L1X_StopRanging(dev);
+[e = _status ( _VL53L1X_StopRanging (1 _dev ]
+"239
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 239:  status = VL53L1_WrByte(dev, 0x0008, 0x09);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 8 `i `ui -> -> 9 `i `uc ]
+"240
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 240:  status = VL53L1_WrByte(dev, 0x0B, 0);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 11 `i `ui -> -> 0 `i `uc ]
+"241
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 241:  return status;
+[e ) _status ]
+[e $UE 12  ]
+"242
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 242: }
+[e :UE 12 ]
+}
+"244
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 244: VL53L1X_ERROR VL53L1X_ClearInterrupt(uint16_t dev)
+[v _VL53L1X_ClearInterrupt `(c ~T0 @X0 1 ef1`ui ]
+"245
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 245: {
+{
+[e :U _VL53L1X_ClearInterrupt ]
+"244
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 244: VL53L1X_ERROR VL53L1X_ClearInterrupt(uint16_t dev)
+[v _dev `ui ~T0 @X0 1 r1 ]
+"245
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 245: {
+[f ]
+"246
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 246:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"248
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 248:  status = VL53L1_WrByte(dev, 0x0086, 0x01);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 134 `i `ui -> -> 1 `i `uc ]
+"249
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 249:  return status;
+[e ) _status ]
+[e $UE 19  ]
+"250
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 250: }
+[e :UE 19 ]
+}
+"252
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 252: VL53L1X_ERROR VL53L1X_SetInterruptPolarity(uint16_t dev, uint8_t NewPolarity)
+[v _VL53L1X_SetInterruptPolarity `(c ~T0 @X0 1 ef2`ui`uc ]
+"253
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 253: {
+{
+[e :U _VL53L1X_SetInterruptPolarity ]
+"252
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 252: VL53L1X_ERROR VL53L1X_SetInterruptPolarity(uint16_t dev, uint8_t NewPolarity)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _NewPolarity `uc ~T0 @X0 1 r2 ]
+"253
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 253: {
+[f ]
+"254
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 254:  uint8_t Temp;
+[v _Temp `uc ~T0 @X0 1 a ]
+"255
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 255:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"257
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 257:  status = VL53L1_RdByte(dev, 0x0030, &Temp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 48 `i `ui &U _Temp ]
+"258
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 258:  Temp = Temp & 0xEF;
+[e = _Temp -> & -> _Temp `i -> 239 `i `uc ]
+"259
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 259:  status = VL53L1_WrByte(dev, 0x0030, Temp | (!(NewPolarity & 1)) << 4);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 48 `i `ui -> | -> _Temp `i << -> ! != & -> _NewPolarity `i -> 1 `i -> 0 `i `i -> 4 `i `uc ]
+"260
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 260:  return status;
+[e ) _status ]
+[e $UE 20  ]
+"261
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 261: }
+[e :UE 20 ]
+}
+"263
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 263: VL53L1X_ERROR VL53L1X_GetInterruptPolarity(uint16_t dev, uint8_t *pInterruptPolarity)
+[v _VL53L1X_GetInterruptPolarity `(c ~T0 @X0 1 ef2`ui`*uc ]
+"264
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 264: {
+{
+[e :U _VL53L1X_GetInterruptPolarity ]
+"263
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 263: VL53L1X_ERROR VL53L1X_GetInterruptPolarity(uint16_t dev, uint8_t *pInterruptPolarity)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _pInterruptPolarity `*uc ~T0 @X0 1 r2 ]
+"264
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 264: {
+[f ]
+"265
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 265:  uint8_t Temp;
+[v _Temp `uc ~T0 @X0 1 a ]
+"266
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 266:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"268
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 268:  status = VL53L1_RdByte(dev, 0x0030, &Temp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 48 `i `ui &U _Temp ]
+"269
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 269:  Temp = Temp & 0x10;
+[e = _Temp -> & -> _Temp `i -> 16 `i `uc ]
+"270
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 270:  *pInterruptPolarity = !(Temp>>4);
+[e = *U _pInterruptPolarity -> -> ! != >> -> _Temp `i -> 4 `i -> 0 `i `i `uc ]
+"271
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 271:  return status;
+[e ) _status ]
+[e $UE 21  ]
+"272
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 272: }
+[e :UE 21 ]
+}
+"274
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 274: VL53L1X_ERROR VL53L1X_StartRanging(uint16_t dev)
+[v _VL53L1X_StartRanging `(c ~T0 @X0 1 ef1`ui ]
+"275
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 275: {
+{
+[e :U _VL53L1X_StartRanging ]
+"274
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 274: VL53L1X_ERROR VL53L1X_StartRanging(uint16_t dev)
+[v _dev `ui ~T0 @X0 1 r1 ]
+"275
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 275: {
+[f ]
+"276
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 276:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"278
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 278:  status = VL53L1_WrByte(dev, 0x0087, 0x40);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 135 `i `ui -> -> 64 `i `uc ]
+"279
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 279:  return status;
+[e ) _status ]
+[e $UE 22  ]
+"280
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 280: }
+[e :UE 22 ]
+}
+"282
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 282: VL53L1X_ERROR VL53L1X_StopRanging(uint16_t dev)
+[v _VL53L1X_StopRanging `(c ~T0 @X0 1 ef1`ui ]
+"283
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 283: {
+{
+[e :U _VL53L1X_StopRanging ]
+"282
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 282: VL53L1X_ERROR VL53L1X_StopRanging(uint16_t dev)
+[v _dev `ui ~T0 @X0 1 r1 ]
+"283
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 283: {
+[f ]
+"284
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 284:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"286
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 286:  status = VL53L1_WrByte(dev, 0x0087, 0x00);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 135 `i `ui -> -> 0 `i `uc ]
+"287
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 287:  return status;
+[e ) _status ]
+[e $UE 23  ]
+"288
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 288: }
+[e :UE 23 ]
+}
+"290
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 290: VL53L1X_ERROR VL53L1X_CheckForDataReady(uint16_t dev, uint8_t *isDataReady)
+[v _VL53L1X_CheckForDataReady `(c ~T0 @X0 1 ef2`ui`*uc ]
+"291
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 291: {
+{
+[e :U _VL53L1X_CheckForDataReady ]
+"290
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 290: VL53L1X_ERROR VL53L1X_CheckForDataReady(uint16_t dev, uint8_t *isDataReady)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _isDataReady `*uc ~T0 @X0 1 r2 ]
+"291
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 291: {
+[f ]
+"292
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 292:  uint8_t Temp;
+[v _Temp `uc ~T0 @X0 1 a ]
+"293
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 293:  uint8_t IntPol;
+[v _IntPol `uc ~T0 @X0 1 a ]
+"294
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 294:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"296
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 296:  status = VL53L1X_GetInterruptPolarity(dev, &IntPol);
+[e = _status ( _VL53L1X_GetInterruptPolarity (2 , _dev &U _IntPol ]
+"297
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 297:  status = VL53L1_RdByte(dev, 0x0031, &Temp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 49 `i `ui &U _Temp ]
+"299
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 299:  if (status == 0){
+[e $ ! == -> _status `i -> 0 `i 25  ]
+{
+"300
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 300:   if ((Temp & 1) == IntPol)
+[e $ ! == & -> _Temp `i -> 1 `i -> _IntPol `i 26  ]
+"301
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 301:    *isDataReady = 1;
+[e = *U _isDataReady -> -> 1 `i `uc ]
+[e $U 27  ]
+"302
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 302:   else
+[e :U 26 ]
+"303
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 303:    *isDataReady = 0;
+[e = *U _isDataReady -> -> 0 `i `uc ]
+[e :U 27 ]
+"304
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 304:  }
+}
+[e :U 25 ]
+"305
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 305:  return status;
+[e ) _status ]
+[e $UE 24  ]
+"306
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 306: }
+[e :UE 24 ]
+}
+"308
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 308: VL53L1X_ERROR VL53L1X_SetTimingBudgetInMs(uint16_t dev, uint16_t TimingBudgetInMs)
+[v _VL53L1X_SetTimingBudgetInMs `(c ~T0 @X0 1 ef2`ui`ui ]
+"309
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 309: {
+{
+[e :U _VL53L1X_SetTimingBudgetInMs ]
+"308
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 308: VL53L1X_ERROR VL53L1X_SetTimingBudgetInMs(uint16_t dev, uint16_t TimingBudgetInMs)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _TimingBudgetInMs `ui ~T0 @X0 1 r2 ]
+"309
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 309: {
+[f ]
+"310
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 310:  uint16_t DM;
+[v _DM `ui ~T0 @X0 1 a ]
+"311
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 311:  VL53L1X_ERROR status=0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"313
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 313:  status = VL53L1X_GetDistanceMode(dev, &DM);
+[e = _status ( _VL53L1X_GetDistanceMode (2 , _dev &U _DM ]
+"314
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 314:  if (DM == 0)
+[e $ ! == _DM -> -> 0 `i `ui 29  ]
+"315
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 315:   return 1;
+[e ) -> -> 1 `i `c ]
+[e $UE 28  ]
+[e $U 30  ]
+"316
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 316:  else if (DM == 1) {
+[e :U 29 ]
+[e $ ! == _DM -> -> 1 `i `ui 31  ]
+{
+"317
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 317:   switch (TimingBudgetInMs) {
+[e $U 33  ]
+{
+"318
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 318:   case 15:
+[e :U 34 ]
+"319
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 319:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 29 `i `ui ]
+"321
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 321:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 39 `i `ui ]
+"323
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 323:    break;
+[e $U 32  ]
+"324
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 324:   case 20:
+[e :U 35 ]
+"325
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 325:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 81 `i `ui ]
+"327
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 327:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 110 `i `ui ]
+"329
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 329:    break;
+[e $U 32  ]
+"330
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 330:   case 33:
+[e :U 36 ]
+"331
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 331:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 214 `i `ui ]
+"333
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 333:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 110 `i `ui ]
+"335
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 335:    break;
+[e $U 32  ]
+"336
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 336:   case 50:
+[e :U 37 ]
+"337
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 337:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 430 `i `ui ]
+"339
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 339:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 488 `i `ui ]
+"341
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 341:    break;
+[e $U 32  ]
+"342
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 342:   case 100:
+[e :U 38 ]
+"343
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 343:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 737 `i `ui ]
+"345
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 345:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 904 `i `ui ]
+"347
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 347:    break;
+[e $U 32  ]
+"348
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 348:   case 200:
+[e :U 39 ]
+"349
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 349:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 993 `i `ui ]
+"351
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 351:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 1174 `i `ui ]
+"353
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 353:    break;
+[e $U 32  ]
+"354
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 354:   case 500:
+[e :U 40 ]
+"355
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 355:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 1425 `i `ui ]
+"357
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 357:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 1473 `i `ui ]
+"359
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 359:    break;
+[e $U 32  ]
+"360
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 360:   default:
+[e :U 41 ]
+"361
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 361:    status = 1;
+[e = _status -> -> 1 `i `c ]
+"362
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 362:    break;
+[e $U 32  ]
+"363
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 363:   }
+}
+[e $U 32  ]
+[e :U 33 ]
+[e [\ _TimingBudgetInMs , $ -> -> 15 `i `ui 34
+ , $ -> -> 20 `i `ui 35
+ , $ -> -> 33 `i `ui 36
+ , $ -> -> 50 `i `ui 37
+ , $ -> -> 100 `i `ui 38
+ , $ -> -> 200 `i `ui 39
+ , $ -> -> 500 `i `ui 40
+ 41 ]
+[e :U 32 ]
+"364
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 364:  } else {
+}
+[e $U 42  ]
+[e :U 31 ]
+{
+"365
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 365:   switch (TimingBudgetInMs) {
+[e $U 44  ]
+{
+"366
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 366:   case 20:
+[e :U 45 ]
+"367
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 367:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 30 `i `ui ]
+"369
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 369:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 34 `i `ui ]
+"371
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 371:    break;
+[e $U 43  ]
+"372
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 372:   case 33:
+[e :U 46 ]
+"373
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 373:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 96 `i `ui ]
+"375
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 375:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 110 `i `ui ]
+"377
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 377:    break;
+[e $U 43  ]
+"378
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 378:   case 50:
+[e :U 47 ]
+"379
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 379:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 173 `i `ui ]
+"381
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 381:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 198 `i `ui ]
+"383
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 383:    break;
+[e $U 43  ]
+"384
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 384:   case 100:
+[e :U 48 ]
+"385
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 385:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 460 `i `ui ]
+"387
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 387:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 490 `i `ui ]
+"389
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 389:    break;
+[e $U 43  ]
+"390
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 390:   case 200:
+[e :U 49 ]
+"391
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 391:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 729 `i `ui ]
+"393
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 393:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 760 `i `ui ]
+"395
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 395:    break;
+[e $U 43  ]
+"396
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 396:   case 500:
+[e :U 50 ]
+"397
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 397:    VL53L1_WrWord(dev, 0x005E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 94 `i `ui -> -> 1167 `i `ui ]
+"399
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 399:    VL53L1_WrWord(dev, 0x0061,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 97 `i `ui -> -> 1188 `i `ui ]
+"401
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 401:    break;
+[e $U 43  ]
+"402
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 402:   default:
+[e :U 51 ]
+"403
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 403:    status = 1;
+[e = _status -> -> 1 `i `c ]
+"404
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 404:    break;
+[e $U 43  ]
+"405
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 405:   }
+}
+[e $U 43  ]
+[e :U 44 ]
+[e [\ _TimingBudgetInMs , $ -> -> 20 `i `ui 45
+ , $ -> -> 33 `i `ui 46
+ , $ -> -> 50 `i `ui 47
+ , $ -> -> 100 `i `ui 48
+ , $ -> -> 200 `i `ui 49
+ , $ -> -> 500 `i `ui 50
+ 51 ]
+[e :U 43 ]
+"406
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 406:  }
+}
+[e :U 42 ]
+[e :U 30 ]
+"407
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 407:  return status;
+[e ) _status ]
+[e $UE 28  ]
+"408
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 408: }
+[e :UE 28 ]
+}
+"410
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 410: VL53L1X_ERROR VL53L1X_GetTimingBudgetInMs(uint16_t dev, uint16_t *pTimingBudget)
+[v _VL53L1X_GetTimingBudgetInMs `(c ~T0 @X0 1 ef2`ui`*ui ]
+"411
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 411: {
+{
+[e :U _VL53L1X_GetTimingBudgetInMs ]
+"410
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 410: VL53L1X_ERROR VL53L1X_GetTimingBudgetInMs(uint16_t dev, uint16_t *pTimingBudget)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _pTimingBudget `*ui ~T0 @X0 1 r2 ]
+"411
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 411: {
+[f ]
+"412
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 412:  uint16_t Temp;
+[v _Temp `ui ~T0 @X0 1 a ]
+"413
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 413:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"415
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 415:  status = VL53L1_RdWord(dev, 0x005E, &Temp);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 94 `i `ui &U _Temp ]
+"416
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 416:  switch (Temp) {
+[e $U 54  ]
+{
+"417
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 417:   case 0x001D :
+[e :U 55 ]
+"418
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 418:    *pTimingBudget = 15;
+[e = *U _pTimingBudget -> -> 15 `i `ui ]
+"419
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 419:    break;
+[e $U 53  ]
+"420
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 420:   case 0x0051 :
+[e :U 56 ]
+"421
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 421:   case 0x001E :
+[e :U 57 ]
+"422
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 422:    *pTimingBudget = 20;
+[e = *U _pTimingBudget -> -> 20 `i `ui ]
+"423
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 423:    break;
+[e $U 53  ]
+"424
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 424:   case 0x00D6 :
+[e :U 58 ]
+"425
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 425:   case 0x0060 :
+[e :U 59 ]
+"426
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 426:    *pTimingBudget = 33;
+[e = *U _pTimingBudget -> -> 33 `i `ui ]
+"427
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 427:    break;
+[e $U 53  ]
+"428
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 428:   case 0x1AE :
+[e :U 60 ]
+"429
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 429:   case 0x00AD :
+[e :U 61 ]
+"430
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 430:    *pTimingBudget = 50;
+[e = *U _pTimingBudget -> -> 50 `i `ui ]
+"431
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 431:    break;
+[e $U 53  ]
+"432
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 432:   case 0x02E1 :
+[e :U 62 ]
+"433
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 433:   case 0x01CC :
+[e :U 63 ]
+"434
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 434:    *pTimingBudget = 100;
+[e = *U _pTimingBudget -> -> 100 `i `ui ]
+"435
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 435:    break;
+[e $U 53  ]
+"436
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 436:   case 0x03E1 :
+[e :U 64 ]
+"437
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 437:   case 0x02D9 :
+[e :U 65 ]
+"438
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 438:    *pTimingBudget = 200;
+[e = *U _pTimingBudget -> -> 200 `i `ui ]
+"439
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 439:    break;
+[e $U 53  ]
+"440
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 440:   case 0x0591 :
+[e :U 66 ]
+"441
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 441:   case 0x048F :
+[e :U 67 ]
+"442
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 442:    *pTimingBudget = 500;
+[e = *U _pTimingBudget -> -> 500 `i `ui ]
+"443
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 443:    break;
+[e $U 53  ]
+"444
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 444:   default:
+[e :U 68 ]
+"445
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 445:    status = 1;
+[e = _status -> -> 1 `i `c ]
+"446
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 446:    *pTimingBudget = 0;
+[e = *U _pTimingBudget -> -> 0 `i `ui ]
+"447
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 447:  }
+}
+[e $U 53  ]
+[e :U 54 ]
+[e [\ _Temp , $ -> -> 29 `i `ui 55
+ , $ -> -> 81 `i `ui 56
+ , $ -> -> 30 `i `ui 57
+ , $ -> -> 214 `i `ui 58
+ , $ -> -> 96 `i `ui 59
+ , $ -> -> 430 `i `ui 60
+ , $ -> -> 173 `i `ui 61
+ , $ -> -> 737 `i `ui 62
+ , $ -> -> 460 `i `ui 63
+ , $ -> -> 993 `i `ui 64
+ , $ -> -> 729 `i `ui 65
+ , $ -> -> 1425 `i `ui 66
+ , $ -> -> 1167 `i `ui 67
+ 68 ]
+[e :U 53 ]
+"448
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 448:  return status;
+[e ) _status ]
+[e $UE 52  ]
+"449
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 449: }
+[e :UE 52 ]
+}
+"451
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 451: VL53L1X_ERROR VL53L1X_SetDistanceMode(uint16_t dev, uint16_t DM)
+[v _VL53L1X_SetDistanceMode `(c ~T0 @X0 1 ef2`ui`ui ]
+"452
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 452: {
+{
+[e :U _VL53L1X_SetDistanceMode ]
+"451
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 451: VL53L1X_ERROR VL53L1X_SetDistanceMode(uint16_t dev, uint16_t DM)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _DM `ui ~T0 @X0 1 r2 ]
+"452
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 452: {
+[f ]
+"453
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 453:  uint16_t TB;
+[v _TB `ui ~T0 @X0 1 a ]
+"454
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 454:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"456
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 456:  status = VL53L1X_GetTimingBudgetInMs(dev, &TB);
+[e = _status ( _VL53L1X_GetTimingBudgetInMs (2 , _dev &U _TB ]
+"457
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 457:  if (status != 0)
+[e $ ! != -> _status `i -> 0 `i 70  ]
+"458
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 458:   return 1;
+[e ) -> -> 1 `i `c ]
+[e $UE 69  ]
+[e :U 70 ]
+"459
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 459:  switch (DM) {
+[e $U 72  ]
+{
+"460
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 460:  case 1:
+[e :U 73 ]
+"461
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 461:   status = VL53L1_WrByte(dev, 0x004B, 0x14);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 75 `i `ui -> -> 20 `i `uc ]
+"462
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 462:   status = VL53L1_WrByte(dev, 0x0060, 0x07);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 96 `i `ui -> -> 7 `i `uc ]
+"463
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 463:   status = VL53L1_WrByte(dev, 0x0063, 0x05);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 99 `i `ui -> -> 5 `i `uc ]
+"464
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 464:   status = VL53L1_WrByte(dev, 0x0069, 0x38);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 105 `i `ui -> -> 56 `i `uc ]
+"465
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 465:   status = VL53L1_WrWord(dev, 0x0078, 0x0705);
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 120 `i `ui -> -> 1797 `i `ui ]
+"466
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 466:   status = VL53L1_WrWord(dev, 0x007A, 0x0606);
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 122 `i `ui -> -> 1542 `i `ui ]
+"467
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 467:   break;
+[e $U 71  ]
+"468
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 468:  case 2:
+[e :U 74 ]
+"469
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 469:   status = VL53L1_WrByte(dev, 0x004B, 0x0A);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 75 `i `ui -> -> 10 `i `uc ]
+"470
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 470:   status = VL53L1_WrByte(dev, 0x0060, 0x0F);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 96 `i `ui -> -> 15 `i `uc ]
+"471
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 471:   status = VL53L1_WrByte(dev, 0x0063, 0x0D);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 99 `i `ui -> -> 13 `i `uc ]
+"472
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 472:   status = VL53L1_WrByte(dev, 0x0069, 0xB8);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 105 `i `ui -> -> 184 `i `uc ]
+"473
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 473:   status = VL53L1_WrWord(dev, 0x0078, 0x0F0D);
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 120 `i `ui -> -> 3853 `i `ui ]
+"474
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 474:   status = VL53L1_WrWord(dev, 0x007A, 0x0E0E);
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 122 `i `ui -> -> 3598 `i `ui ]
+"475
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 475:   break;
+[e $U 71  ]
+"476
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 476:  default:
+[e :U 75 ]
+"477
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 477:   status = 1;
+[e = _status -> -> 1 `i `c ]
+"478
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 478:   break;
+[e $U 71  ]
+"479
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 479:  }
+}
+[e $U 71  ]
+[e :U 72 ]
+[e [\ _DM , $ -> -> 1 `i `ui 73
+ , $ -> -> 2 `i `ui 74
+ 75 ]
+[e :U 71 ]
+"481
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 481:  if (status == 0)
+[e $ ! == -> _status `i -> 0 `i 76  ]
+"482
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 482:   status = VL53L1X_SetTimingBudgetInMs(dev, TB);
+[e = _status ( _VL53L1X_SetTimingBudgetInMs (2 , _dev _TB ]
+[e :U 76 ]
+"483
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 483:  return status;
+[e ) _status ]
+[e $UE 69  ]
+"484
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 484: }
+[e :UE 69 ]
+}
+"486
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 486: VL53L1X_ERROR VL53L1X_GetDistanceMode(uint16_t dev, uint16_t *DM)
+[v _VL53L1X_GetDistanceMode `(c ~T0 @X0 1 ef2`ui`*ui ]
+"487
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 487: {
+{
+[e :U _VL53L1X_GetDistanceMode ]
+"486
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 486: VL53L1X_ERROR VL53L1X_GetDistanceMode(uint16_t dev, uint16_t *DM)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _DM `*ui ~T0 @X0 1 r2 ]
+"487
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 487: {
+[f ]
+"488
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 488:  uint8_t TempDM, status=0;
+[v _TempDM `uc ~T0 @X0 1 a ]
+[v _status `uc ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `uc ]
+"490
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 490:  status = VL53L1_RdByte(dev,0x004B, &TempDM);
+[e = _status -> ( _VL53L1_RdByte (3 , , _dev -> -> 75 `i `ui &U _TempDM `uc ]
+"491
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 491:  if (TempDM == 0x14)
+[e $ ! == -> _TempDM `i -> 20 `i 78  ]
+"492
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 492:   *DM=1;
+[e = *U _DM -> -> 1 `i `ui ]
+[e :U 78 ]
+"493
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 493:  if(TempDM == 0x0A)
+[e $ ! == -> _TempDM `i -> 10 `i 79  ]
+"494
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 494:   *DM=2;
+[e = *U _DM -> -> 2 `i `ui ]
+[e :U 79 ]
+"495
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 495:  return status;
+[e ) -> _status `c ]
+[e $UE 77  ]
+"496
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 496: }
+[e :UE 77 ]
+}
+"498
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 498: VL53L1X_ERROR VL53L1X_SetInterMeasurementInMs(uint16_t dev, uint32_t InterMeasMs)
+[v _VL53L1X_SetInterMeasurementInMs `(c ~T0 @X0 1 ef2`ui`ul ]
+"499
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 499: {
+{
+[e :U _VL53L1X_SetInterMeasurementInMs ]
+"498
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 498: VL53L1X_ERROR VL53L1X_SetInterMeasurementInMs(uint16_t dev, uint32_t InterMeasMs)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _InterMeasMs `ul ~T0 @X0 1 r2 ]
+"499
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 499: {
+[f ]
+"500
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 500:  uint16_t ClockPLL;
+[v _ClockPLL `ui ~T0 @X0 1 a ]
+"501
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 501:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"503
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 503:  status = VL53L1_RdWord(dev, 0x00DE, &ClockPLL);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 222 `i `ui &U _ClockPLL ]
+"504
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 504:  ClockPLL = ClockPLL&0x3FF;
+[e = _ClockPLL & _ClockPLL -> -> 1023 `i `ui ]
+"505
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 505:  VL53L1_WrDWord(dev, 0x006C,
+[e ( _VL53L1_WrDWord (3 , , _dev -> -> 108 `i `ui -> * -> * -> _ClockPLL `ul _InterMeasMs `d .1.075 `ul ]
+"507
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 507:  return status;
+[e ) _status ]
+[e $UE 80  ]
+"509
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 509: }
+[e :UE 80 ]
+}
+"511
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 511: VL53L1X_ERROR VL53L1X_GetInterMeasurementInMs(uint16_t dev, uint16_t *pIM)
+[v _VL53L1X_GetInterMeasurementInMs `(c ~T0 @X0 1 ef2`ui`*ui ]
+"512
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 512: {
+{
+[e :U _VL53L1X_GetInterMeasurementInMs ]
+"511
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 511: VL53L1X_ERROR VL53L1X_GetInterMeasurementInMs(uint16_t dev, uint16_t *pIM)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _pIM `*ui ~T0 @X0 1 r2 ]
+"512
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 512: {
+[f ]
+"513
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 513:  uint16_t ClockPLL;
+[v _ClockPLL `ui ~T0 @X0 1 a ]
+"514
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 514:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"515
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 515:  uint32_t tmp;
+[v _tmp `ul ~T0 @X0 1 a ]
+"517
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 517:  status = VL53L1_RdDWord(dev,0x006C, &tmp);
+[e = _status ( _VL53L1_RdDWord (3 , , _dev -> -> 108 `i `ui &U _tmp ]
+"518
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 518:  *pIM = (uint16_t)tmp;
+[e = *U _pIM -> _tmp `ui ]
+"519
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 519:  status = VL53L1_RdWord(dev, 0x00DE, &ClockPLL);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 222 `i `ui &U _ClockPLL ]
+"520
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 520:  ClockPLL = ClockPLL&0x3FF;
+[e = _ClockPLL & _ClockPLL -> -> 1023 `i `ui ]
+"521
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 521:  *pIM= (uint16_t)(*pIM/(ClockPLL*1.065));
+[e = *U _pIM -> / -> *U _pIM `d * -> _ClockPLL `d .1.065 `ui ]
+"522
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 522:  return status;
+[e ) _status ]
+[e $UE 81  ]
+"523
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 523: }
+[e :UE 81 ]
+}
+"525
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 525: VL53L1X_ERROR VL53L1X_BootState(uint16_t dev, uint8_t *state)
+[v _VL53L1X_BootState `(c ~T0 @X0 1 ef2`ui`*uc ]
+"526
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 526: {
+{
+[e :U _VL53L1X_BootState ]
+"525
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 525: VL53L1X_ERROR VL53L1X_BootState(uint16_t dev, uint8_t *state)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _state `*uc ~T0 @X0 1 r2 ]
+"526
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 526: {
+[f ]
+"527
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 527:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"528
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 528:  uint8_t tmp = 0;
+[v _tmp `uc ~T0 @X0 1 a ]
+[e = _tmp -> -> 0 `i `uc ]
+"530
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 530:  status = VL53L1_RdByte(dev,0x00E5, &tmp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 229 `i `ui &U _tmp ]
+"531
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 531:  *state = tmp;
+[e = *U _state _tmp ]
+"532
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 532:  return status;
+[e ) _status ]
+[e $UE 82  ]
+"533
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 533: }
+[e :UE 82 ]
+}
+"535
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 535: VL53L1X_ERROR VL53L1X_GetSensorId(uint16_t dev, uint16_t *sensorId)
+[v _VL53L1X_GetSensorId `(c ~T0 @X0 1 ef2`ui`*ui ]
+"536
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 536: {
+{
+[e :U _VL53L1X_GetSensorId ]
+"535
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 535: VL53L1X_ERROR VL53L1X_GetSensorId(uint16_t dev, uint16_t *sensorId)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _sensorId `*ui ~T0 @X0 1 r2 ]
+"536
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 536: {
+[f ]
+"537
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 537:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"538
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 538:  uint16_t tmp = 0;
+[v _tmp `ui ~T0 @X0 1 a ]
+[e = _tmp -> -> 0 `i `ui ]
+"541
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 541:  status = VL53L1_RdWord(dev, 0x010F, &tmp);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 271 `i `ui &U _tmp ]
+"542
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 542:  *sensorId = tmp;
+[e = *U _sensorId _tmp ]
+"543
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 543:  return status;
+[e ) _status ]
+[e $UE 83  ]
+"544
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 544: }
+[e :UE 83 ]
+}
+"546
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 546: VL53L1X_ERROR VL53L1X_GetDistance(uint16_t dev, uint16_t *distance)
+[v _VL53L1X_GetDistance `(c ~T0 @X0 1 ef2`ui`*ui ]
+"547
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 547: {
+{
+[e :U _VL53L1X_GetDistance ]
+"546
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 546: VL53L1X_ERROR VL53L1X_GetDistance(uint16_t dev, uint16_t *distance)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _distance `*ui ~T0 @X0 1 r2 ]
+"547
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 547: {
+[f ]
+"548
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 548:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"549
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 549:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"551
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 551:  status = (VL53L1_RdWord(dev,
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 150 `i `ui &U _tmp ]
+"553
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 553:  *distance = tmp;
+[e = *U _distance _tmp ]
+"554
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 554:  return status;
+[e ) _status ]
+[e $UE 84  ]
+"555
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 555: }
+[e :UE 84 ]
+}
+"557
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 557: VL53L1X_ERROR VL53L1X_GetSignalPerSpad(uint16_t dev, uint16_t *signalRate)
+[v _VL53L1X_GetSignalPerSpad `(c ~T0 @X0 1 ef2`ui`*ui ]
+"558
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 558: {
+{
+[e :U _VL53L1X_GetSignalPerSpad ]
+"557
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 557: VL53L1X_ERROR VL53L1X_GetSignalPerSpad(uint16_t dev, uint16_t *signalRate)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _signalRate `*ui ~T0 @X0 1 r2 ]
+"558
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 558: {
+[f ]
+"559
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 559:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"560
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 560:  uint16_t SpNb=1, signal;
+[v _SpNb `ui ~T0 @X0 1 a ]
+[e = _SpNb -> -> 1 `i `ui ]
+[v _signal `ui ~T0 @X0 1 a ]
+"562
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 562:  status = VL53L1_RdWord(dev,
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 152 `i `ui &U _signal ]
+"564
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 564:  status = VL53L1_RdWord(dev,
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 140 `i `ui &U _SpNb ]
+"566
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 566:  *signalRate = (uint16_t) (2000.0*signal/SpNb);
+[e = *U _signalRate -> / * .2000.0 -> _signal `d -> _SpNb `d `ui ]
+"567
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 567:  return status;
+[e ) _status ]
+[e $UE 85  ]
+"568
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 568: }
+[e :UE 85 ]
+}
+"570
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 570: VL53L1X_ERROR VL53L1X_GetAmbientPerSpad(uint16_t dev, uint16_t *ambPerSp)
+[v _VL53L1X_GetAmbientPerSpad `(c ~T0 @X0 1 ef2`ui`*ui ]
+"571
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 571: {
+{
+[e :U _VL53L1X_GetAmbientPerSpad ]
+"570
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 570: VL53L1X_ERROR VL53L1X_GetAmbientPerSpad(uint16_t dev, uint16_t *ambPerSp)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _ambPerSp `*ui ~T0 @X0 1 r2 ]
+"571
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 571: {
+[f ]
+"572
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 572:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"573
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 573:  uint16_t AmbientRate, SpNb = 1;
+[v _AmbientRate `ui ~T0 @X0 1 a ]
+[v _SpNb `ui ~T0 @X0 1 a ]
+[e = _SpNb -> -> 1 `i `ui ]
+"575
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 575:  status = VL53L1_RdWord(dev, 0x0090, &AmbientRate);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 144 `i `ui &U _AmbientRate ]
+"576
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 576:  status = VL53L1_RdWord(dev, 0x008C, &SpNb);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 140 `i `ui &U _SpNb ]
+"577
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 577:  *ambPerSp=(uint16_t) (2000.0 * AmbientRate / SpNb);
+[e = *U _ambPerSp -> / * .2000.0 -> _AmbientRate `d -> _SpNb `d `ui ]
+"578
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 578:  return status;
+[e ) _status ]
+[e $UE 86  ]
+"579
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 579: }
+[e :UE 86 ]
+}
+"581
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 581: VL53L1X_ERROR VL53L1X_GetSignalRate(uint16_t dev, uint16_t *signal)
+[v _VL53L1X_GetSignalRate `(c ~T0 @X0 1 ef2`ui`*ui ]
+"582
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 582: {
+{
+[e :U _VL53L1X_GetSignalRate ]
+"581
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 581: VL53L1X_ERROR VL53L1X_GetSignalRate(uint16_t dev, uint16_t *signal)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _signal `*ui ~T0 @X0 1 r2 ]
+"582
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 582: {
+[f ]
+"583
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 583:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"584
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 584:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"586
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 586:  status = VL53L1_RdWord(dev,
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 152 `i `ui &U _tmp ]
+"588
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 588:  *signal = tmp*8;
+[e = *U _signal * _tmp -> -> 8 `i `ui ]
+"589
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 589:  return status;
+[e ) _status ]
+[e $UE 87  ]
+"590
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 590: }
+[e :UE 87 ]
+}
+"592
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 592: VL53L1X_ERROR VL53L1X_GetSpadNb(uint16_t dev, uint16_t *spNb)
+[v _VL53L1X_GetSpadNb `(c ~T0 @X0 1 ef2`ui`*ui ]
+"593
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 593: {
+{
+[e :U _VL53L1X_GetSpadNb ]
+"592
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 592: VL53L1X_ERROR VL53L1X_GetSpadNb(uint16_t dev, uint16_t *spNb)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _spNb `*ui ~T0 @X0 1 r2 ]
+"593
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 593: {
+[f ]
+"594
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 594:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"595
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 595:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"597
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 597:  status = VL53L1_RdWord(dev,
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 140 `i `ui &U _tmp ]
+"599
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 599:  *spNb = tmp >> 8;
+[e = *U _spNb >> _tmp -> 8 `i ]
+"600
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 600:  return status;
+[e ) _status ]
+[e $UE 88  ]
+"601
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 601: }
+[e :UE 88 ]
+}
+"603
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 603: VL53L1X_ERROR VL53L1X_GetAmbientRate(uint16_t dev, uint16_t *ambRate)
+[v _VL53L1X_GetAmbientRate `(c ~T0 @X0 1 ef2`ui`*ui ]
+"604
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 604: {
+{
+[e :U _VL53L1X_GetAmbientRate ]
+"603
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 603: VL53L1X_ERROR VL53L1X_GetAmbientRate(uint16_t dev, uint16_t *ambRate)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _ambRate `*ui ~T0 @X0 1 r2 ]
+"604
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 604: {
+[f ]
+"605
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 605:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"606
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 606:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"608
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 608:  status = VL53L1_RdWord(dev, 0x0090, &tmp);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 144 `i `ui &U _tmp ]
+"609
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 609:  *ambRate = tmp*8;
+[e = *U _ambRate * _tmp -> -> 8 `i `ui ]
+"610
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 610:  return status;
+[e ) _status ]
+[e $UE 89  ]
+"611
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 611: }
+[e :UE 89 ]
+}
+"613
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 613: VL53L1X_ERROR VL53L1X_GetRangeStatus(uint16_t dev, uint8_t *rangeStatus)
+[v _VL53L1X_GetRangeStatus `(c ~T0 @X0 1 ef2`ui`*uc ]
+"614
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 614: {
+{
+[e :U _VL53L1X_GetRangeStatus ]
+"613
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 613: VL53L1X_ERROR VL53L1X_GetRangeStatus(uint16_t dev, uint8_t *rangeStatus)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _rangeStatus `*uc ~T0 @X0 1 r2 ]
+"614
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 614: {
+[f ]
+"615
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 615:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"616
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 616:  uint8_t RgSt;
+[v _RgSt `uc ~T0 @X0 1 a ]
+"618
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 618:  *rangeStatus = 255;
+[e = *U _rangeStatus -> -> 255 `i `uc ]
+"619
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 619:  status = VL53L1_RdByte(dev, 0x0089, &RgSt);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 137 `i `ui &U _RgSt ]
+"620
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 620:  RgSt = RgSt & 0x1F;
+[e = _RgSt -> & -> _RgSt `i -> 31 `i `uc ]
+"621
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 621:  if (RgSt < 24)
+[e $ ! < -> _RgSt `i -> 24 `i 91  ]
+"622
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 622:   *rangeStatus = status_rtn[RgSt];
+[e = *U _rangeStatus *U + &U _status_rtn * -> _RgSt `ux -> -> # *U &U _status_rtn `ui `ux ]
+[e :U 91 ]
+"623
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 623:  return status;
+[e ) _status ]
+[e $UE 90  ]
+"624
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 624: }
+[e :UE 90 ]
+}
+"626
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 626: VL53L1X_ERROR VL53L1X_GetResult(uint16_t dev, VL53L1X_Result_t *pResult)
+[v _VL53L1X_GetResult `(c ~T0 @X0 1 ef2`ui`*S9 ]
+"627
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 627: {
+{
+[e :U _VL53L1X_GetResult ]
+"626
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 626: VL53L1X_ERROR VL53L1X_GetResult(uint16_t dev, VL53L1X_Result_t *pResult)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _pResult `*S9 ~T0 @X0 1 r2 ]
+"627
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 627: {
+[f ]
+"628
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 628:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"629
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 629:  uint8_t Temp[17];
+[v _Temp `uc ~T0 @X0 -> 17 `i a ]
+"630
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 630:  uint8_t RgSt = 255;
+[v _RgSt `uc ~T0 @X0 1 a ]
+[e = _RgSt -> -> 255 `i `uc ]
+"632
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 632:  status = VL53L1_ReadMulti(dev, 0x0089, Temp, 17);
+[e = _status ( _VL53L1_ReadMulti (4 , , , _dev -> -> 137 `i `ui &U _Temp -> -> -> 17 `i `l `ul ]
+"633
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 633:  RgSt = Temp[0] & 0x1F;
+[e = _RgSt -> & -> *U + &U _Temp * -> -> -> 0 `i `ui `ux -> -> # *U &U _Temp `ui `ux `i -> 31 `i `uc ]
+"634
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 634:  if (RgSt < 24)
+[e $ ! < -> _RgSt `i -> 24 `i 93  ]
+"635
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 635:   RgSt = status_rtn[RgSt];
+[e = _RgSt *U + &U _status_rtn * -> _RgSt `ux -> -> # *U &U _status_rtn `ui `ux ]
+[e :U 93 ]
+"636
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 636:  pResult->Status = RgSt;
+[e = . *U _pResult 0 _RgSt ]
+"637
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 637:  pResult->Ambient = (Temp[7] << 8 | Temp[8]) * 8;
+[e = . *U _pResult 2 -> * | << -> *U + &U _Temp * -> -> -> 7 `i `ui `ux -> -> # *U &U _Temp `ui `ux `i -> 8 `i -> *U + &U _Temp * -> -> -> 8 `i `ui `ux -> -> # *U &U _Temp `ui `ux `i -> 8 `i `ui ]
+"638
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 638:  pResult->NumSPADs = Temp[3];
+[e = . *U _pResult 4 -> *U + &U _Temp * -> -> -> 3 `i `ui `ux -> -> # *U &U _Temp `ui `ux `ui ]
+"639
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 639:  pResult->SigPerSPAD = (Temp[15] << 8 | Temp[16]) * 8;
+[e = . *U _pResult 3 -> * | << -> *U + &U _Temp * -> -> -> 15 `i `ui `ux -> -> # *U &U _Temp `ui `ux `i -> 8 `i -> *U + &U _Temp * -> -> -> 16 `i `ui `ux -> -> # *U &U _Temp `ui `ux `i -> 8 `i `ui ]
+"640
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 640:  pResult->Distance = Temp[13] << 8 | Temp[14];
+[e = . *U _pResult 1 -> | << -> *U + &U _Temp * -> -> -> 13 `i `ui `ux -> -> # *U &U _Temp `ui `ux `i -> 8 `i -> *U + &U _Temp * -> -> -> 14 `i `ui `ux -> -> # *U &U _Temp `ui `ux `i `ui ]
+"642
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 642:  return status;
+[e ) _status ]
+[e $UE 92  ]
+"643
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 643: }
+[e :UE 92 ]
+}
+"645
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 645: VL53L1X_ERROR VL53L1X_SetOffset(uint16_t dev, int16_t OffsetValue)
+[v _VL53L1X_SetOffset `(c ~T0 @X0 1 ef2`ui`i ]
+"646
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 646: {
+{
+[e :U _VL53L1X_SetOffset ]
+"645
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 645: VL53L1X_ERROR VL53L1X_SetOffset(uint16_t dev, int16_t OffsetValue)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _OffsetValue `i ~T0 @X0 1 r2 ]
+"646
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 646: {
+[f ]
+"647
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 647:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"648
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 648:  int16_t Temp;
+[v _Temp `i ~T0 @X0 1 a ]
+"650
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 650:  Temp = (OffsetValue*4);
+[e = _Temp * _OffsetValue -> 4 `i ]
+"651
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 651:  VL53L1_WrWord(dev, 0x001E,
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 30 `i `ui -> _Temp `ui ]
+"653
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 653:  VL53L1_WrWord(dev, 0x0020, 0x0);
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 32 `i `ui -> -> 0 `i `ui ]
+"654
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 654:  VL53L1_WrWord(dev, 0x0022, 0x0);
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 34 `i `ui -> -> 0 `i `ui ]
+"655
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 655:  return status;
+[e ) _status ]
+[e $UE 94  ]
+"656
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 656: }
+[e :UE 94 ]
+}
+"658
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 658: VL53L1X_ERROR VL53L1X_GetOffset(uint16_t dev, int16_t *offset)
+[v _VL53L1X_GetOffset `(c ~T0 @X0 1 ef2`ui`*i ]
+"659
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 659: {
+{
+[e :U _VL53L1X_GetOffset ]
+"658
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 658: VL53L1X_ERROR VL53L1X_GetOffset(uint16_t dev, int16_t *offset)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _offset `*i ~T0 @X0 1 r2 ]
+"659
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 659: {
+[f ]
+"660
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 660:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"661
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 661:  uint16_t Temp;
+[v _Temp `ui ~T0 @X0 1 a ]
+"663
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 663:  status = VL53L1_RdWord(dev,0x001E, &Temp);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 30 `i `ui &U _Temp ]
+"664
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 664:  Temp = Temp<<3;
+[e = _Temp << _Temp -> 3 `i ]
+"665
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 665:  Temp = Temp>>5;
+[e = _Temp >> _Temp -> 5 `i ]
+"666
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 666:  *offset = (int16_t)(Temp);
+[e = *U _offset -> _Temp `i ]
+"667
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 667:  return status;
+[e ) _status ]
+[e $UE 95  ]
+"668
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 668: }
+[e :UE 95 ]
+}
+"670
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 670: VL53L1X_ERROR VL53L1X_SetXtalk(uint16_t dev, uint16_t XtalkValue)
+[v _VL53L1X_SetXtalk `(c ~T0 @X0 1 ef2`ui`ui ]
+"671
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 671: {
+{
+[e :U _VL53L1X_SetXtalk ]
+"670
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 670: VL53L1X_ERROR VL53L1X_SetXtalk(uint16_t dev, uint16_t XtalkValue)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _XtalkValue `ui ~T0 @X0 1 r2 ]
+"671
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 671: {
+[f ]
+"673
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 673:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"675
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 675:  status = VL53L1_WrWord(dev,
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 24 `i `ui -> -> 0 `i `ui ]
+"678
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 678:  status = VL53L1_WrWord(dev, 0x001A,
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 26 `i `ui -> -> 0 `i `ui ]
+"680
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 680:  status = VL53L1_WrWord(dev, 0x0016,
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 22 `i `ui / << _XtalkValue -> 9 `i -> -> 1000 `i `ui ]
+"682
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 682:  return status;
+[e ) _status ]
+[e $UE 96  ]
+"683
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 683: }
+[e :UE 96 ]
+}
+"685
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 685: VL53L1X_ERROR VL53L1X_GetXtalk(uint16_t dev, uint16_t *xtalk )
+[v _VL53L1X_GetXtalk `(c ~T0 @X0 1 ef2`ui`*ui ]
+"686
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 686: {
+{
+[e :U _VL53L1X_GetXtalk ]
+"685
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 685: VL53L1X_ERROR VL53L1X_GetXtalk(uint16_t dev, uint16_t *xtalk )
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _xtalk `*ui ~T0 @X0 1 r2 ]
+"686
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 686: {
+[f ]
+"687
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 687:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"688
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 688:  uint32_t tmp;
+[v _tmp `ul ~T0 @X0 1 a ]
+"690
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 690:  status = VL53L1_RdDWord(dev,0x0016, &tmp);
+[e = _status ( _VL53L1_RdDWord (3 , , _dev -> -> 22 `i `ui &U _tmp ]
+"691
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 691:  *xtalk = (uint16_t)(tmp*1000)>>9;
+[e = *U _xtalk >> -> * _tmp -> -> -> 1000 `i `l `ul `ui -> 9 `i ]
+"692
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 692:  return status;
+[e ) _status ]
+[e $UE 97  ]
+"693
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 693: }
+[e :UE 97 ]
+}
+"695
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 695: VL53L1X_ERROR VL53L1X_SetDistanceThreshold(uint16_t dev, uint16_t ThreshLow,
+[v _VL53L1X_SetDistanceThreshold `(c ~T0 @X0 1 ef5`ui`ui`ui`uc`uc ]
+"698
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 698: {
+{
+[e :U _VL53L1X_SetDistanceThreshold ]
+"695
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 695: VL53L1X_ERROR VL53L1X_SetDistanceThreshold(uint16_t dev, uint16_t ThreshLow,
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _ThreshLow `ui ~T0 @X0 1 r2 ]
+"696
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 696:          uint16_t ThreshHigh, uint8_t Window,
+[v _ThreshHigh `ui ~T0 @X0 1 r3 ]
+[v _Window `uc ~T0 @X0 1 r4 ]
+"697
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 697:          uint8_t IntOnNoTarget)
+[v _IntOnNoTarget `uc ~T0 @X0 1 r5 ]
+"698
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 698: {
+[f ]
+"699
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 699:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"700
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 700:  uint8_t Temp = 0;
+[v _Temp `uc ~T0 @X0 1 a ]
+[e = _Temp -> -> 0 `i `uc ]
+"702
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 702:  status = VL53L1_RdByte(dev, 0x0046, &Temp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 70 `i `ui &U _Temp ]
+"703
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 703:  Temp = Temp & 0x47;
+[e = _Temp -> & -> _Temp `i -> 71 `i `uc ]
+"704
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 704:  if (IntOnNoTarget == 0) {
+[e $ ! == -> _IntOnNoTarget `i -> 0 `i 99  ]
+{
+"705
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 705:   status = VL53L1_WrByte(dev, 0x0046,
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 70 `i `ui -> | -> _Temp `i & -> _Window `i -> 7 `i `uc ]
+"707
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 707:  } else {
+}
+[e $U 100  ]
+[e :U 99 ]
+{
+"708
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 708:   status = VL53L1_WrByte(dev, 0x0046,
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 70 `i `ui -> | | -> _Temp `i & -> _Window `i -> 7 `i -> 64 `i `uc ]
+"710
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 710:  }
+}
+[e :U 100 ]
+"711
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 711:  status = VL53L1_WrWord(dev, 0x0072, ThreshHigh);
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 114 `i `ui _ThreshHigh ]
+"712
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 712:  status = VL53L1_WrWord(dev, 0x0074, ThreshLow);
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 116 `i `ui _ThreshLow ]
+"713
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 713:  return status;
+[e ) _status ]
+[e $UE 98  ]
+"714
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 714: }
+[e :UE 98 ]
+}
+"716
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 716: VL53L1X_ERROR VL53L1X_GetDistanceThresholdWindow(uint16_t dev, uint16_t *window)
+[v _VL53L1X_GetDistanceThresholdWindow `(c ~T0 @X0 1 ef2`ui`*ui ]
+"717
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 717: {
+{
+[e :U _VL53L1X_GetDistanceThresholdWindow ]
+"716
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 716: VL53L1X_ERROR VL53L1X_GetDistanceThresholdWindow(uint16_t dev, uint16_t *window)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _window `*ui ~T0 @X0 1 r2 ]
+"717
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 717: {
+[f ]
+"718
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 718:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"719
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 719:  uint8_t tmp;
+[v _tmp `uc ~T0 @X0 1 a ]
+"720
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 720:  status = VL53L1_RdByte(dev,0x0046, &tmp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 70 `i `ui &U _tmp ]
+"721
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 721:  *window = (uint16_t)(tmp & 0x7);
+[e = *U _window -> & -> _tmp `i -> 7 `i `ui ]
+"722
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 722:  return status;
+[e ) _status ]
+[e $UE 101  ]
+"723
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 723: }
+[e :UE 101 ]
+}
+"725
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 725: VL53L1X_ERROR VL53L1X_GetDistanceThresholdLow(uint16_t dev, uint16_t *low)
+[v _VL53L1X_GetDistanceThresholdLow `(c ~T0 @X0 1 ef2`ui`*ui ]
+"726
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 726: {
+{
+[e :U _VL53L1X_GetDistanceThresholdLow ]
+"725
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 725: VL53L1X_ERROR VL53L1X_GetDistanceThresholdLow(uint16_t dev, uint16_t *low)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _low `*ui ~T0 @X0 1 r2 ]
+"726
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 726: {
+[f ]
+"727
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 727:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"728
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 728:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"730
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 730:  status = VL53L1_RdWord(dev,0x0074, &tmp);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 116 `i `ui &U _tmp ]
+"731
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 731:  *low = tmp;
+[e = *U _low _tmp ]
+"732
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 732:  return status;
+[e ) _status ]
+[e $UE 102  ]
+"733
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 733: }
+[e :UE 102 ]
+}
+"735
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 735: VL53L1X_ERROR VL53L1X_GetDistanceThresholdHigh(uint16_t dev, uint16_t *high)
+[v _VL53L1X_GetDistanceThresholdHigh `(c ~T0 @X0 1 ef2`ui`*ui ]
+"736
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 736: {
+{
+[e :U _VL53L1X_GetDistanceThresholdHigh ]
+"735
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 735: VL53L1X_ERROR VL53L1X_GetDistanceThresholdHigh(uint16_t dev, uint16_t *high)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _high `*ui ~T0 @X0 1 r2 ]
+"736
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 736: {
+[f ]
+"737
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 737:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"738
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 738:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"740
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 740:  status = VL53L1_RdWord(dev,0x0072, &tmp);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 114 `i `ui &U _tmp ]
+"741
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 741:  *high = tmp;
+[e = *U _high _tmp ]
+"742
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 742:  return status;
+[e ) _status ]
+[e $UE 103  ]
+"743
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 743: }
+[e :UE 103 ]
+}
+"745
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 745: VL53L1X_ERROR VL53L1X_SetROICenter(uint16_t dev, uint8_t ROICenter)
+[v _VL53L1X_SetROICenter `(c ~T0 @X0 1 ef2`ui`uc ]
+"746
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 746: {
+{
+[e :U _VL53L1X_SetROICenter ]
+"745
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 745: VL53L1X_ERROR VL53L1X_SetROICenter(uint16_t dev, uint8_t ROICenter)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _ROICenter `uc ~T0 @X0 1 r2 ]
+"746
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 746: {
+[f ]
+"747
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 747:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"748
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 748:  status = VL53L1_WrByte(dev, 0x007F, ROICenter);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 127 `i `ui _ROICenter ]
+"749
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 749:  return status;
+[e ) _status ]
+[e $UE 104  ]
+"750
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 750: }
+[e :UE 104 ]
+}
+"752
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 752: VL53L1X_ERROR VL53L1X_GetROICenter(uint16_t dev, uint8_t *ROICenter)
+[v _VL53L1X_GetROICenter `(c ~T0 @X0 1 ef2`ui`*uc ]
+"753
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 753: {
+{
+[e :U _VL53L1X_GetROICenter ]
+"752
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 752: VL53L1X_ERROR VL53L1X_GetROICenter(uint16_t dev, uint8_t *ROICenter)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _ROICenter `*uc ~T0 @X0 1 r2 ]
+"753
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 753: {
+[f ]
+"754
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 754:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"755
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 755:  uint8_t tmp;
+[v _tmp `uc ~T0 @X0 1 a ]
+"756
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 756:  status = VL53L1_RdByte(dev, 0x007F, &tmp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 127 `i `ui &U _tmp ]
+"757
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 757:  *ROICenter = tmp;
+[e = *U _ROICenter _tmp ]
+"758
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 758:  return status;
+[e ) _status ]
+[e $UE 105  ]
+"759
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 759: }
+[e :UE 105 ]
+}
+"761
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 761: VL53L1X_ERROR VL53L1X_SetROI(uint16_t dev, uint16_t X, uint16_t Y)
+[v _VL53L1X_SetROI `(c ~T0 @X0 1 ef3`ui`ui`ui ]
+"762
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 762: {
+{
+[e :U _VL53L1X_SetROI ]
+"761
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 761: VL53L1X_ERROR VL53L1X_SetROI(uint16_t dev, uint16_t X, uint16_t Y)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _X `ui ~T0 @X0 1 r2 ]
+[v _Y `ui ~T0 @X0 1 r3 ]
+"762
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 762: {
+[f ]
+"763
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 763:  uint8_t OpticalCenter;
+[v _OpticalCenter `uc ~T0 @X0 1 a ]
+"764
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 764:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"766
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 766:  status =VL53L1_RdByte(dev, 0x013E, &OpticalCenter);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 318 `i `ui &U _OpticalCenter ]
+"767
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 767:  if (X > 16)
+[e $ ! > _X -> -> 16 `i `ui 107  ]
+"768
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 768:   X = 16;
+[e = _X -> -> 16 `i `ui ]
+[e :U 107 ]
+"769
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 769:  if (Y > 16)
+[e $ ! > _Y -> -> 16 `i `ui 108  ]
+"770
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 770:   Y = 16;
+[e = _Y -> -> 16 `i `ui ]
+[e :U 108 ]
+"771
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 771:  if (X > 10 || Y > 10){
+[e $ ! || > _X -> -> 10 `i `ui > _Y -> -> 10 `i `ui 109  ]
+{
+"772
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 772:   OpticalCenter = 199;
+[e = _OpticalCenter -> -> 199 `i `uc ]
+"773
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 773:  }
+}
+[e :U 109 ]
+"774
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 774:  status = VL53L1_WrByte(dev, 0x007F, OpticalCenter);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 127 `i `ui _OpticalCenter ]
+"775
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 775:  status = VL53L1_WrByte(dev, 0x0080,
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 128 `i `ui -> | << - _Y -> -> 1 `i `ui -> 4 `i - _X -> -> 1 `i `ui `uc ]
+"777
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 777:  return status;
+[e ) _status ]
+[e $UE 106  ]
+"778
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 778: }
+[e :UE 106 ]
+}
+"780
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 780: VL53L1X_ERROR VL53L1X_GetROI_XY(uint16_t dev, uint16_t *ROI_X, uint16_t *ROI_Y)
+[v _VL53L1X_GetROI_XY `(c ~T0 @X0 1 ef3`ui`*ui`*ui ]
+"781
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 781: {
+{
+[e :U _VL53L1X_GetROI_XY ]
+"780
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 780: VL53L1X_ERROR VL53L1X_GetROI_XY(uint16_t dev, uint16_t *ROI_X, uint16_t *ROI_Y)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _ROI_X `*ui ~T0 @X0 1 r2 ]
+[v _ROI_Y `*ui ~T0 @X0 1 r3 ]
+"781
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 781: {
+[f ]
+"782
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 782:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"783
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 783:  uint8_t tmp;
+[v _tmp `uc ~T0 @X0 1 a ]
+"785
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 785:  status = VL53L1_RdByte(dev,0x0080, &tmp);
+[e = _status ( _VL53L1_RdByte (3 , , _dev -> -> 128 `i `ui &U _tmp ]
+"786
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 786:  *ROI_X = ((uint16_t)tmp & 0x0F) + 1;
+[e = *U _ROI_X + & -> _tmp `ui -> -> 15 `i `ui -> -> 1 `i `ui ]
+"787
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 787:  *ROI_Y = (((uint16_t)tmp & 0xF0) >> 4) + 1;
+[e = *U _ROI_Y + >> & -> _tmp `ui -> -> 240 `i `ui -> 4 `i -> -> 1 `i `ui ]
+"788
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 788:  return status;
+[e ) _status ]
+[e $UE 110  ]
+"789
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 789: }
+[e :UE 110 ]
+}
+"791
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 791: VL53L1X_ERROR VL53L1X_SetSignalThreshold(uint16_t dev, uint16_t Signal)
+[v _VL53L1X_SetSignalThreshold `(c ~T0 @X0 1 ef2`ui`ui ]
+"792
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 792: {
+{
+[e :U _VL53L1X_SetSignalThreshold ]
+"791
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 791: VL53L1X_ERROR VL53L1X_SetSignalThreshold(uint16_t dev, uint16_t Signal)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _Signal `ui ~T0 @X0 1 r2 ]
+"792
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 792: {
+[f ]
+"793
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 793:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"795
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 795:  VL53L1_WrWord(dev,0x0066,Signal>>3);
+[e ( _VL53L1_WrWord (3 , , _dev -> -> 102 `i `ui >> _Signal -> 3 `i ]
+"796
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 796:  return status;
+[e ) _status ]
+[e $UE 111  ]
+"797
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 797: }
+[e :UE 111 ]
+}
+"799
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 799: VL53L1X_ERROR VL53L1X_GetSignalThreshold(uint16_t dev, uint16_t *signal)
+[v _VL53L1X_GetSignalThreshold `(c ~T0 @X0 1 ef2`ui`*ui ]
+"800
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 800: {
+{
+[e :U _VL53L1X_GetSignalThreshold ]
+"799
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 799: VL53L1X_ERROR VL53L1X_GetSignalThreshold(uint16_t dev, uint16_t *signal)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _signal `*ui ~T0 @X0 1 r2 ]
+"800
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 800: {
+[f ]
+"801
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 801:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"802
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 802:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"804
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 804:  status = VL53L1_RdWord(dev,
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 102 `i `ui &U _tmp ]
+"806
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 806:  *signal = tmp <<3;
+[e = *U _signal << _tmp -> 3 `i ]
+"807
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 807:  return status;
+[e ) _status ]
+[e $UE 112  ]
+"808
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 808: }
+[e :UE 112 ]
+}
+"810
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 810: VL53L1X_ERROR VL53L1X_SetSigmaThreshold(uint16_t dev, uint16_t Sigma)
+[v _VL53L1X_SetSigmaThreshold `(c ~T0 @X0 1 ef2`ui`ui ]
+"811
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 811: {
+{
+[e :U _VL53L1X_SetSigmaThreshold ]
+"810
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 810: VL53L1X_ERROR VL53L1X_SetSigmaThreshold(uint16_t dev, uint16_t Sigma)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _Sigma `ui ~T0 @X0 1 r2 ]
+"811
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 811: {
+[f ]
+"812
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 812:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"814
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 814:  if(Sigma>(0xFFFF>>2)){
+[e $ ! > _Sigma >> -> 65535 `ui -> 2 `i 114  ]
+{
+"815
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 815:   return 1;
+[e ) -> -> 1 `i `c ]
+[e $UE 113  ]
+"816
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 816:  }
+}
+[e :U 114 ]
+"818
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 818:  status = VL53L1_WrWord(dev,0x0064,Sigma<<2);
+[e = _status ( _VL53L1_WrWord (3 , , _dev -> -> 100 `i `ui << _Sigma -> 2 `i ]
+"819
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 819:  return status;
+[e ) _status ]
+[e $UE 113  ]
+"820
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 820: }
+[e :UE 113 ]
+}
+"822
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 822: VL53L1X_ERROR VL53L1X_GetSigmaThreshold(uint16_t dev, uint16_t *sigma)
+[v _VL53L1X_GetSigmaThreshold `(c ~T0 @X0 1 ef2`ui`*ui ]
+"823
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 823: {
+{
+[e :U _VL53L1X_GetSigmaThreshold ]
+"822
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 822: VL53L1X_ERROR VL53L1X_GetSigmaThreshold(uint16_t dev, uint16_t *sigma)
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _sigma `*ui ~T0 @X0 1 r2 ]
+"823
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 823: {
+[f ]
+"824
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 824:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"825
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 825:  uint16_t tmp;
+[v _tmp `ui ~T0 @X0 1 a ]
+"827
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 827:  status = VL53L1_RdWord(dev,0x0064, &tmp);
+[e = _status ( _VL53L1_RdWord (3 , , _dev -> -> 100 `i `ui &U _tmp ]
+"828
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 828:  *sigma = tmp >> 2;
+[e = *U _sigma >> _tmp -> 2 `i ]
+"829
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 829:  return status;
+[e ) _status ]
+[e $UE 115  ]
+"831
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 831: }
+[e :UE 115 ]
+}
+"833
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 833: VL53L1X_ERROR VL53L1X_StartTemperatureUpdate(uint16_t dev)
+[v _VL53L1X_StartTemperatureUpdate `(c ~T0 @X0 1 ef1`ui ]
+"834
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 834: {
+{
+[e :U _VL53L1X_StartTemperatureUpdate ]
+"833
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 833: VL53L1X_ERROR VL53L1X_StartTemperatureUpdate(uint16_t dev)
+[v _dev `ui ~T0 @X0 1 r1 ]
+"834
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 834: {
+[f ]
+"835
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 835:  VL53L1X_ERROR status = 0;
+[v _status `c ~T0 @X0 1 a ]
+[e = _status -> -> 0 `i `c ]
+"836
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 836:  uint8_t tmp=0;
+[v _tmp `uc ~T0 @X0 1 a ]
+[e = _tmp -> -> 0 `i `uc ]
+"838
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 838:  status = VL53L1_WrByte(dev,0x0008,0x81);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 8 `i `ui -> -> 129 `i `uc ]
+"839
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 839:  status = VL53L1_WrByte(dev,0x0B,0x92);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 11 `i `ui -> -> 146 `i `uc ]
+"840
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 840:  status = VL53L1X_StartRanging(dev);
+[e = _status ( _VL53L1X_StartRanging (1 _dev ]
+"841
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 841:  while(tmp==0){
+[e $U 117  ]
+[e :U 118 ]
+{
+"842
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 842:   status = VL53L1X_CheckForDataReady(dev, &tmp);
+[e = _status ( _VL53L1X_CheckForDataReady (2 , _dev &U _tmp ]
+"843
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 843:  }
+}
+[e :U 117 ]
+"841
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 841:  while(tmp==0){
+[e $ == -> _tmp `i -> 0 `i 118  ]
+[e :U 119 ]
+"844
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 844:  tmp = 0;
+[e = _tmp -> -> 0 `i `uc ]
+"845
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 845:  status = VL53L1X_ClearInterrupt(dev);
+[e = _status ( _VL53L1X_ClearInterrupt (1 _dev ]
+"846
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 846:  status = VL53L1X_StopRanging(dev);
+[e = _status ( _VL53L1X_StopRanging (1 _dev ]
+"847
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 847:  status = VL53L1_WrByte(dev, 0x0008, 0x09);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 8 `i `ui -> -> 9 `i `uc ]
+"848
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 848:  status = VL53L1_WrByte(dev, 0x0B, 0);
+[e = _status ( _VL53L1_WrByte (3 , , _dev -> -> 11 `i `ui -> -> 0 `i `uc ]
+"849
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 849:  return status;
+[e ) _status ]
+[e $UE 116  ]
+"850
+[; ;vl53l1_ULD/core/VL53L1X_api.c: 850: }
+[e :UE 116 ]
+}

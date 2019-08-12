@@ -1,0 +1,1022 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"4850 /opt/microchip/xc8/v2.05/pic/include/pic12f1840.h
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4850: extern volatile __bit ACKDT __attribute__((address(0x10B5)));
+[v _ACKDT `Vb ~T0 @X0 0 e@4277 ]
+"4853
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4853: extern volatile __bit ACKEN __attribute__((address(0x10B4)));
+[v _ACKEN `Vb ~T0 @X0 0 e@4276 ]
+"3162
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3162: extern volatile unsigned char SSPSTAT __attribute__((address(0x214)));
+[v _SSPSTAT `Vuc ~T0 @X0 0 e@532 ]
+"3488
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3488: extern volatile unsigned char SSPCON2 __attribute__((address(0x216)));
+[v _SSPCON2 `Vuc ~T0 @X0 0 e@534 ]
+"5549
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 5549: extern volatile __bit SEN __attribute__((address(0x10B0)));
+[v _SEN `Vb ~T0 @X0 0 e@4272 ]
+"5444
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 5444: extern volatile __bit PEN __attribute__((address(0x10B2)));
+[v _PEN `Vb ~T0 @X0 0 e@4274 ]
+"3043
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3043: extern volatile unsigned char SSP1BUF __attribute__((address(0x211)));
+[v _SSP1BUF `Vuc ~T0 @X0 0 e@529 ]
+"4856
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4856: extern volatile __bit ACKSTAT __attribute__((address(0x10B6)));
+[v _ACKSTAT `Vb ~T0 @X0 0 e@4278 ]
+"5492
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 5492: extern volatile __bit RCEN __attribute__((address(0x10B3)));
+[v _RCEN `Vb ~T0 @X0 0 e@4275 ]
+"3048
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3048: extern volatile unsigned char SSPBUF __attribute__((address(0x211)));
+[v _SSPBUF `Vuc ~T0 @X0 0 e@529 ]
+"54 /opt/microchip/xc8/v2.05/pic/include/pic12f1840.h
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"481
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 481: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"543
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 543: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"583
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 583: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"603
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 603: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"610
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 610: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"630
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 630: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"650
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 650: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"722
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 722: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"799
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 799: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"819
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 819: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"839
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 839: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"910
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 910: __asm("CPSCON0 equ 01Eh");
+[; <" CPSCON0 equ 01Eh ;# ">
+"970
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 970: __asm("CPSCON1 equ 01Fh");
+[; <" CPSCON1 equ 01Fh ;# ">
+"1004
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1004: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1054
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1054: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1116
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1116: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1156
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1156: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1239
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1239: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1290
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1290: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1349
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1349: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1407
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1407: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1479
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1479: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1541
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1541: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1548
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1548: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1568
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1568: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1588
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1588: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1668
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1668: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1734
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1734: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1779
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1779: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"1836
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1836: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"1896
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1896: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"1916
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1916: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"1949
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 1949: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2025
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2025: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2080
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2080: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2132
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2132: __asm("SRCON0 equ 011Ah");
+[; <" SRCON0 equ 011Ah ;# ">
+"2203
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2203: __asm("SRCON1 equ 011Bh");
+[; <" SRCON1 equ 011Bh ;# ">
+"2255
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2255: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"2260
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2260: __asm("APFCON0 equ 011Dh");
+[; <" APFCON0 equ 011Dh ;# ">
+"2397
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2397: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2444
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2444: __asm("EEADR equ 0191h");
+[; <" EEADR equ 0191h ;# ">
+"2451
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2451: __asm("EEADRL equ 0191h");
+[; <" EEADRL equ 0191h ;# ">
+"2471
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2471: __asm("EEADRH equ 0192h");
+[; <" EEADRH equ 0192h ;# ">
+"2491
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2491: __asm("EEDAT equ 0193h");
+[; <" EEDAT equ 0193h ;# ">
+"2498
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2498: __asm("EEDATL equ 0193h");
+[; <" EEDATL equ 0193h ;# ">
+"2503
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2503: __asm("EEDATA equ 0193h");
+[; <" EEDATA equ 0193h ;# ">
+"2536
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2536: __asm("EEDATH equ 0194h");
+[; <" EEDATH equ 0194h ;# ">
+"2556
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2556: __asm("EECON1 equ 0195h");
+[; <" EECON1 equ 0195h ;# ">
+"2618
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2618: __asm("EECON2 equ 0196h");
+[; <" EECON2 equ 0196h ;# ">
+"2638
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2638: __asm("VREGCON equ 0197h");
+[; <" VREGCON equ 0197h ;# ">
+"2672
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2672: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"2692
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2692: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"2712
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2712: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"2719
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2719: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"2724
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2724: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"2728
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2728: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"2773
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2773: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"2778
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2778: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"2811
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2811: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"2873
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2873: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"2935
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2935: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"2987
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 2987: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3045
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3045: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3050
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3050: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3083
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3083: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"3088
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3088: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3121
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3121: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"3126
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3126: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3159
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3159: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"3164
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3164: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3281
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3281: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"3286
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3286: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3290
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3290: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"3485
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3485: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"3490
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3490: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"3607
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3607: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"3612
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3612: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"3729
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3729: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"3736
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3736: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"3756
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3756: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"3776
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3776: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"3858
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3858: __asm("PWM1CON equ 0294h");
+[; <" PWM1CON equ 0294h ;# ">
+"3928
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3928: __asm("CCP1AS equ 0295h");
+[; <" CCP1AS equ 0295h ;# ">
+"3933
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 3933: __asm("ECCP1AS equ 0295h");
+[; <" ECCP1AS equ 0295h ;# ">
+"4090
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4090: __asm("PSTR1CON equ 0296h");
+[; <" PSTR1CON equ 0296h ;# ">
+"4124
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4124: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"4182
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4182: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"4240
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4240: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"4298
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4298: __asm("CLKRCON equ 039Ah");
+[; <" CLKRCON equ 039Ah ;# ">
+"4374
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4374: __asm("MDCON equ 039Ch");
+[; <" MDCON equ 039Ch ;# ">
+"4425
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4425: __asm("MDSRC equ 039Dh");
+[; <" MDSRC equ 039Dh ;# ">
+"4478
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4478: __asm("MDCARL equ 039Eh");
+[; <" MDCARL equ 039Eh ;# ">
+"4543
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4543: __asm("MDCARH equ 039Fh");
+[; <" MDCARH equ 039Fh ;# ">
+"4608
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4608: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"4640
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4640: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"4660
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4660: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"4680
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4680: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"4700
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4700: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"4720
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4720: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"4740
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4740: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"4760
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4760: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"4780
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4780: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"4800
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4800: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"4820
+[; ;/opt/microchip/xc8/v2.05/pic/include/pic12f1840.h: 4820: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"40 vl53l1_ULD/platform/vl53l1_platform.c
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 40: void i2c_ack() {
+[v _i2c_ack `(v ~T0 @X0 1 ef ]
+{
+[e :U _i2c_ack ]
+[f ]
+"41
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 41:     ACKDT = 1;
+[e = _ACKDT -> -> 1 `i `b ]
+"42
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 42:     ACKEN = 1;
+[e = _ACKEN -> -> 1 `i `b ]
+"43
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 43: }
+[e :UE 269 ]
+}
+"44
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 44: void i2c_nack() {
+[v _i2c_nack `(v ~T0 @X0 1 ef ]
+{
+[e :U _i2c_nack ]
+[f ]
+"45
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 45:     ACKDT = 0;
+[e = _ACKDT -> -> 0 `i `b ]
+"46
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 46:     ACKEN = 1;
+[e = _ACKEN -> -> 1 `i `b ]
+"47
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 47: }
+[e :UE 270 ]
+}
+"49
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 49: void i2c_wait() {
+[v _i2c_wait `(v ~T0 @X0 1 ef ]
+{
+[e :U _i2c_wait ]
+[f ]
+"50
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 50:     while ((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+[e $U 272  ]
+[e :U 273 ]
+[e :U 272 ]
+[e $ || != & -> _SSPSTAT `i -> 4 `i -> 0 `i != & -> _SSPCON2 `i -> 31 `i -> 0 `i 273  ]
+[e :U 274 ]
+"53
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 53: }
+[e :UE 271 ]
+}
+"54
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 54: void i2c_start() {
+[v _i2c_start `(v ~T0 @X0 1 ef ]
+{
+[e :U _i2c_start ]
+[f ]
+"55
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 55:     SEN = 1;
+[e = _SEN -> -> 1 `i `b ]
+"56
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 56:     i2c_wait();
+[e ( _i2c_wait ..  ]
+"57
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 57: }
+[e :UE 275 ]
+}
+"58
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 58: void i2c_stop() {
+[v _i2c_stop `(v ~T0 @X0 1 ef ]
+{
+[e :U _i2c_stop ]
+[f ]
+"59
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 59:     PEN = 1;
+[e = _PEN -> -> 1 `i `b ]
+"60
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 60:     i2c_wait();
+[e ( _i2c_wait ..  ]
+"61
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 61: }
+[e :UE 276 ]
+}
+"63
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 63: __bit i2c_read_dev(uint16_t dev) {
+[v _i2c_read_dev `(b ~T0 @X0 1 ef1`ui ]
+{
+[e :U _i2c_read_dev ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[f ]
+"64
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 64:     i2c_wait();
+[e ( _i2c_wait ..  ]
+"65
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 65:    SSP1BUF = ((dev << 1) & 0xff | 0x1);
+[e = _SSP1BUF -> | & << _dev -> 1 `i -> -> 255 `i `ui -> -> 1 `i `ui `uc ]
+"66
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 66:    i2c_wait();
+[e ( _i2c_wait ..  ]
+"67
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 67:    return ACKSTAT;
+[e ) _ACKSTAT ]
+[e $UE 277  ]
+"68
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 68: }
+[e :UE 277 ]
+}
+"70
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 70: __bit i2c_write_dev(uint16_t dev) {
+[v _i2c_write_dev `(b ~T0 @X0 1 ef1`ui ]
+{
+[e :U _i2c_write_dev ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[f ]
+"71
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 71:     i2c_wait();
+[e ( _i2c_wait ..  ]
+"72
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 72:    SSP1BUF = ((dev << 1) & 0xff);
+[e = _SSP1BUF -> & << _dev -> 1 `i -> -> 255 `i `ui `uc ]
+"73
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 73:    i2c_wait();
+[e ( _i2c_wait ..  ]
+"74
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 74:    return ACKSTAT;
+[e ) _ACKSTAT ]
+[e $UE 278  ]
+"75
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 75: }
+[e :UE 278 ]
+}
+"76
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 76: __bit i2c_write(uint8_t data) {
+[v _i2c_write `(b ~T0 @X0 1 ef1`uc ]
+{
+[e :U _i2c_write ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"77
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 77:    i2c_wait();
+[e ( _i2c_wait ..  ]
+"78
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 78:    SSP1BUF = data;
+[e = _SSP1BUF _data ]
+"79
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 79:    i2c_wait();
+[e ( _i2c_wait ..  ]
+"80
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 80:    return ACKSTAT;
+[e ) _ACKSTAT ]
+[e $UE 279  ]
+"81
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 81: }
+[e :UE 279 ]
+}
+"82
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 82: __bit i2c_write16(uint16_t data) {
+[v _i2c_write16 `(b ~T0 @X0 1 ef1`ui ]
+{
+[e :U _i2c_write16 ]
+[v _data `ui ~T0 @X0 1 r1 ]
+[f ]
+"83
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 83:     i2c_write((data >> 8) & 0xFF);
+[e ( _i2c_write (1 -> & >> _data -> 8 `i -> -> 255 `i `ui `uc ]
+"84
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 84:     i2c_write(data & 0xFF);
+[e ( _i2c_write (1 -> & _data -> -> 255 `i `ui `uc ]
+"85
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 85:     return 0;
+[e ) -> -> 0 `i `b ]
+[e $UE 280  ]
+"86
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 86: }
+[e :UE 280 ]
+}
+"87
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 87: __bit i2c_write32(uint32_t data) {
+[v _i2c_write32 `(b ~T0 @X0 1 ef1`ul ]
+{
+[e :U _i2c_write32 ]
+[v _data `ul ~T0 @X0 1 r1 ]
+[f ]
+"88
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 88:     i2c_write((data >> 24) & 0xff);
+[e ( _i2c_write (1 -> & >> _data -> 24 `i -> -> -> 255 `i `l `ul `uc ]
+"89
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 89:     i2c_write((data >> 16) & 0xff);
+[e ( _i2c_write (1 -> & >> _data -> 16 `i -> -> -> 255 `i `l `ul `uc ]
+"90
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 90:     i2c_write((data >> 8) & 0xff);
+[e ( _i2c_write (1 -> & >> _data -> 8 `i -> -> -> 255 `i `l `ul `uc ]
+"91
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 91:     i2c_write(data & 0xff);
+[e ( _i2c_write (1 -> & _data -> -> -> 255 `i `l `ul `uc ]
+"92
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 92:     return 0;
+[e ) -> -> 0 `i `b ]
+[e $UE 281  ]
+"93
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 93: }
+[e :UE 281 ]
+}
+"95
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 95: uint8_t i2c_read(uint8_t ack) {
+[v _i2c_read `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _i2c_read ]
+[v _ack `uc ~T0 @X0 1 r1 ]
+[f ]
+"96
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 96:     i2c_wait();
+[e ( _i2c_wait ..  ]
+"97
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 97:     RCEN =1;
+[e = _RCEN -> -> 1 `i `b ]
+"98
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 98:     i2c_wait();
+[e ( _i2c_wait ..  ]
+"99
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 99:     uint8_t temp = SSPBUF;
+[v _temp `uc ~T0 @X0 1 a ]
+[e = _temp _SSPBUF ]
+"100
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 100:     i2c_wait();
+[e ( _i2c_wait ..  ]
+"101
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 101:     ACKDT = !ack;
+[e = _ACKDT ! != -> _ack `i -> 0 `i ]
+"102
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 102:     ACKEN = 1;
+[e = _ACKEN -> -> 1 `i `b ]
+"104
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 104:     return temp;
+[e ) _temp ]
+[e $UE 282  ]
+"105
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 105: }
+[e :UE 282 ]
+}
+"106
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 106: uint16_t i2c_read16() {
+[v _i2c_read16 `(ui ~T0 @X0 1 ef ]
+{
+[e :U _i2c_read16 ]
+[f ]
+"107
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 107:     uint16_t data = 0;
+[v _data `ui ~T0 @X0 1 a ]
+[e = _data -> -> 0 `i `ui ]
+"108
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 108:     data |= (uint16_t)i2c_read(1) << 8;
+[e =| _data << -> ( _i2c_read (1 -> -> 1 `i `uc `ui -> 8 `i ]
+"109
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 109:     data |= i2c_read(0);
+[e =| _data -> ( _i2c_read (1 -> -> 0 `i `uc `ui ]
+"110
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 110:     return data;
+[e ) _data ]
+[e $UE 283  ]
+"111
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 111: }
+[e :UE 283 ]
+}
+"112
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 112: uint32_t i2c_read32() {
+[v _i2c_read32 `(ul ~T0 @X0 1 ef ]
+{
+[e :U _i2c_read32 ]
+[f ]
+"113
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 113:     uint32_t data = 0;
+[v _data `ul ~T0 @X0 1 a ]
+[e = _data -> -> -> 0 `i `l `ul ]
+"114
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 114:     data |= (uint32_t)i2c_read(1) << 24;
+[e =| _data << -> ( _i2c_read (1 -> -> 1 `i `uc `ul -> 24 `i ]
+"115
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 115:     data |= (uint32_t)i2c_read(1) << 16;
+[e =| _data << -> ( _i2c_read (1 -> -> 1 `i `uc `ul -> 16 `i ]
+"116
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 116:     data |= (uint32_t)i2c_read(1) << 8;
+[e =| _data << -> ( _i2c_read (1 -> -> 1 `i `uc `ul -> 8 `i ]
+"117
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 117:     data |= i2c_read(0);
+[e =| _data -> ( _i2c_read (1 -> -> 0 `i `uc `ul ]
+"118
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 118:     return data;
+[e ) _data ]
+[e $UE 284  ]
+"119
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 119: }
+[e :UE 284 ]
+}
+"121
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 121: int8_t VL53L1_WriteMulti( uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count) {
+[v _VL53L1_WriteMulti `(c ~T0 @X0 1 ef4`ui`ui`*uc`ul ]
+{
+[e :U _VL53L1_WriteMulti ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _pdata `*uc ~T0 @X0 1 r3 ]
+[v _count `ul ~T0 @X0 1 r4 ]
+[f ]
+"122
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 122:     i2c_start();
+[e ( _i2c_start ..  ]
+"123
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 123:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"124
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 124:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"126
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 126:     while (count-- > 0) {
+[e $U 286  ]
+[e :U 287 ]
+{
+"127
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 127:         i2c_write(*pdata++);
+[e ( _i2c_write (1 *U ++ _pdata * -> -> 1 `i `x -> -> # *U _pdata `i `x ]
+"128
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 128:     }
+}
+[e :U 286 ]
+"126
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 126:     while (count-- > 0) {
+[e $ > -- _count -> -> -> 1 `i `l `ul -> -> -> 0 `i `l `ul 287  ]
+[e :U 288 ]
+"130
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 130:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"131
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 131:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 285  ]
+"132
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 132: }
+[e :UE 285 ]
+}
+"134
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 134: int8_t VL53L1_ReadMulti(uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count){
+[v _VL53L1_ReadMulti `(c ~T0 @X0 1 ef4`ui`ui`*uc`ul ]
+{
+[e :U _VL53L1_ReadMulti ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _pdata `*uc ~T0 @X0 1 r3 ]
+[v _count `ul ~T0 @X0 1 r4 ]
+[f ]
+"135
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 135:     i2c_start();
+[e ( _i2c_start ..  ]
+"136
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 136:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"137
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 137:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"138
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 138:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"139
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 139:     i2c_start();
+[e ( _i2c_start ..  ]
+"140
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 140:     i2c_read_dev(dev);
+[e ( _i2c_read_dev (1 _dev ]
+"142
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 142:     while (count-- > 0) {
+[e $U 290  ]
+[e :U 291 ]
+{
+"143
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 143:         *pdata++ = i2c_read(1);
+[e = *U ++ _pdata * -> -> 1 `i `x -> -> # *U _pdata `i `x ( _i2c_read (1 -> -> 1 `i `uc ]
+"144
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 144:     }
+}
+[e :U 290 ]
+"142
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 142:     while (count-- > 0) {
+[e $ > -- _count -> -> -> 1 `i `l `ul -> -> -> 0 `i `l `ul 291  ]
+[e :U 292 ]
+"145
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 145:         ACKDT = 0;
+[e = _ACKDT -> -> 0 `i `b ]
+"146
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 146:         ACKEN = 1;
+[e = _ACKEN -> -> 1 `i `b ]
+"148
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 148:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"149
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 149:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 289  ]
+"150
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 150: }
+[e :UE 289 ]
+}
+"152
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 152: int8_t VL53L1_WrByte(uint16_t dev, uint16_t index, uint8_t data) {
+[v _VL53L1_WrByte `(c ~T0 @X0 1 ef3`ui`ui`uc ]
+{
+[e :U _VL53L1_WrByte ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _data `uc ~T0 @X0 1 r3 ]
+[f ]
+"153
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 153:     i2c_start();
+[e ( _i2c_start ..  ]
+"154
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 154:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"155
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 155:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"156
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 156:     i2c_write(data);
+[e ( _i2c_write (1 _data ]
+"158
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 158:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"159
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 159:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 293  ]
+"160
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 160: }
+[e :UE 293 ]
+}
+"162
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 162: int8_t VL53L1_WrWord(uint16_t dev, uint16_t index, uint16_t data) {
+[v _VL53L1_WrWord `(c ~T0 @X0 1 ef3`ui`ui`ui ]
+{
+[e :U _VL53L1_WrWord ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _data `ui ~T0 @X0 1 r3 ]
+[f ]
+"163
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 163:     i2c_start();
+[e ( _i2c_start ..  ]
+"164
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 164:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"165
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 165:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"166
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 166:     i2c_write16(data);
+[e ( _i2c_write16 (1 _data ]
+"168
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 168:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"169
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 169:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 294  ]
+"170
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 170: }
+[e :UE 294 ]
+}
+"172
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 172: int8_t VL53L1_WrDWord(uint16_t dev, uint16_t index, uint32_t data) {
+[v _VL53L1_WrDWord `(c ~T0 @X0 1 ef3`ui`ui`ul ]
+{
+[e :U _VL53L1_WrDWord ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _data `ul ~T0 @X0 1 r3 ]
+[f ]
+"173
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 173:     i2c_start();
+[e ( _i2c_start ..  ]
+"174
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 174:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"175
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 175:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"176
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 176:     i2c_write32(data);
+[e ( _i2c_write32 (1 _data ]
+"178
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 178:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"179
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 179:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 295  ]
+"180
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 180: }
+[e :UE 295 ]
+}
+"182
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 182: int8_t VL53L1_RdByte(uint16_t dev, uint16_t index, uint8_t *data) {
+[v _VL53L1_RdByte `(c ~T0 @X0 1 ef3`ui`ui`*uc ]
+{
+[e :U _VL53L1_RdByte ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _data `*uc ~T0 @X0 1 r3 ]
+[f ]
+"183
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 183:     i2c_start();
+[e ( _i2c_start ..  ]
+"184
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 184:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"185
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 185:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"186
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 186:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"187
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 187:     i2c_start();
+[e ( _i2c_start ..  ]
+"188
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 188:     i2c_read_dev(dev);
+[e ( _i2c_read_dev (1 _dev ]
+"189
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 189:     *data = i2c_read(0);
+[e = *U _data ( _i2c_read (1 -> -> 0 `i `uc ]
+"190
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 190:     ACKDT = 1;
+[e = _ACKDT -> -> 1 `i `b ]
+"191
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 191:     ACKEN = 1;
+[e = _ACKEN -> -> 1 `i `b ]
+"193
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 193:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"194
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 194:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 296  ]
+"195
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 195: }
+[e :UE 296 ]
+}
+"197
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 197: int8_t VL53L1_RdWord(uint16_t dev, uint16_t index, uint16_t *data) {
+[v _VL53L1_RdWord `(c ~T0 @X0 1 ef3`ui`ui`*ui ]
+{
+[e :U _VL53L1_RdWord ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _data `*ui ~T0 @X0 1 r3 ]
+[f ]
+"198
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 198:     i2c_start();
+[e ( _i2c_start ..  ]
+"199
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 199:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"200
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 200:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"201
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 201:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"202
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 202:     i2c_start();
+[e ( _i2c_start ..  ]
+"203
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 203:     i2c_read_dev(dev);
+[e ( _i2c_read_dev (1 _dev ]
+"205
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 205:     *data = i2c_read16();
+[e = *U _data ( _i2c_read16 ..  ]
+"207
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 207:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"208
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 208:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 297  ]
+"209
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 209: }
+[e :UE 297 ]
+}
+"211
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 211: int8_t VL53L1_RdDWord(uint16_t dev, uint16_t index, uint32_t *data) {
+[v _VL53L1_RdDWord `(c ~T0 @X0 1 ef3`ui`ui`*ul ]
+{
+[e :U _VL53L1_RdDWord ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _index `ui ~T0 @X0 1 r2 ]
+[v _data `*ul ~T0 @X0 1 r3 ]
+[f ]
+"212
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 212:     i2c_start();
+[e ( _i2c_start ..  ]
+"213
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 213:     i2c_write_dev(dev);
+[e ( _i2c_write_dev (1 _dev ]
+"214
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 214:     i2c_write16(index);
+[e ( _i2c_write16 (1 _index ]
+"215
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 215:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"216
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 216:     i2c_start();
+[e ( _i2c_start ..  ]
+"217
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 217:     i2c_read_dev(dev);
+[e ( _i2c_read_dev (1 _dev ]
+"218
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 218:     *data = i2c_read32();
+[e = *U _data ( _i2c_read32 ..  ]
+"220
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 220:     i2c_stop();
+[e ( _i2c_stop ..  ]
+"221
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 221:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 298  ]
+"222
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 222: }
+[e :UE 298 ]
+}
+"224
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 224: int8_t VL53L1_WaitMs(uint16_t dev, int32_t wait_ms){
+[v _VL53L1_WaitMs `(c ~T0 @X0 1 ef2`ui`l ]
+{
+[e :U _VL53L1_WaitMs ]
+[v _dev `ui ~T0 @X0 1 r1 ]
+[v _wait_ms `l ~T0 @X0 1 r2 ]
+[f ]
+"226
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 226:     return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 299  ]
+"227
+[; ;vl53l1_ULD/platform/vl53l1_platform.c: 227: }
+[e :UE 299 ]
+}
