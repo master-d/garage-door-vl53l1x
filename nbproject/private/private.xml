@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/yi/MPLABXProjects/garage_door_pic16f1704.X/vl53l1_ULD/platform/vl53l1_platform.h</file>
-            <file>file:/home/yi/MPLABXProjects/garage_door_pic16f1704.X/main.c</file>
-            <file>file:/home/yi/MPLABXProjects/garage_door_pic16f1704.X/vl53l1_ULD/platform/vl53l1_types.h</file>
-            <file>file:/home/yi/MPLABXProjects/garage_door_pic16f1704.X/vl53l1_ULD/platform/vl53l1_platform.c</file>
-            <file>file:/home/yi/MPLABXProjects/garage_door_pic16f1704.X/vl53l1_ULD/core/VL53L1X_calibration.c</file>
-            <file>file:/home/yi/MPLABXProjects/garage_door_pic16f1704.X/vl53l1_ULD/core/VL53L1X_api.c</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

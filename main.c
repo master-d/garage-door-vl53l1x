@@ -205,7 +205,7 @@ uint16_t i2c_range(uint8_t *status) {
 //        tries--;
     }
     VL53L1X_GetRangeStatus(VL53L1_I2C_SLAVE__DEVICE_ADDRESS, status);
-    if (*status == 4)
+    if (*status != 0)
         return 0;
     VL53L1X_GetDistance(VL53L1_I2C_SLAVE__DEVICE_ADDRESS, &distance);
     VL53L1X_ClearInterrupt(VL53L1_I2C_SLAVE__DEVICE_ADDRESS);
@@ -243,11 +243,14 @@ void main(void)
     
     uint8_t status = 0;
     uint16_t distance = i2c_range(&status);
-    if (distance == 0 || distance > 4000) {
+    // ranging error
+    if (status != 0) {
         uint8_t x = 0;
         for (x; x < 6; x++) {
-            LED0 = !LED0;
-            __delay_ms(100);
+            LED0 = 1;
+            __delay_ms(50);
+            LED0 = 0;
+            __delay_ms(50);
         }
     } else {
         uint16_t x = 1000;

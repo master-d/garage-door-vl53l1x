@@ -6,8 +6,8 @@
 CND_BASEDIR=`pwd`
 # default configuration
 CND_ARTIFACT_DIR_default=dist/default/production
-CND_ARTIFACT_NAME_default=garage_door_pic16f1704.X.production.hex
-CND_ARTIFACT_PATH_default=dist/default/production/garage_door_pic16f1704.X.production.hex
+CND_ARTIFACT_NAME_default=garage_door_vl53l1x.X.production.hex
+CND_ARTIFACT_PATH_default=dist/default/production/garage_door_vl53l1x.X.production.hex
 CND_PACKAGE_DIR_default=${CND_DISTDIR}/default/package
-CND_PACKAGE_NAME_default=garagedoorpic16f1704.x.tar
-CND_PACKAGE_PATH_default=${CND_DISTDIR}/default/package/garagedoorpic16f1704.x.tar
+CND_PACKAGE_NAME_default=garagedoorvl53l1x.x.tar
+CND_PACKAGE_PATH_default=${CND_DISTDIR}/default/package/garagedoorvl53l1x.x.tar

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=garage_door_pic16f1704.X
+PROJECTNAME=garage_door_vl53l1x.X
 
 # Active Configuration
 DEFAULTCONF=default
